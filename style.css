@@ -1,0 +1,121 @@
+html{
+  height: 100%; 
+  margin: 0;
+}
+
+body {
+  height: 100%; 
+  margin: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  padding-left: 40px; 
+  height: 100vh; 
+}
+
+body {
+  background-color: #F3F0E9;
+  height: 100%;             
+  margin: 0;
+  display: flex;             
+  justify-content: center;   
+  align-items: center; 
+}
+
+h2 {
+  font-weight: 300;
+  width: 50%;
+  margin: 0; 
+  text-align: center;             
+}
+
+head {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+a {
+ color:black;
+ text-decoration: none;
+ font-size: 1.5rem;
+}
+
+.signature {
+ stroke-dasharray: 2500;
+ animation: writebase 2s linear 1;
+ position: absolute;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center; 
+  margin-top: -30px;
+}
+
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  margin-left: 10px; 
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: -25px;
+  margin-top: 0px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+
+@keyframes writebase {
+  0%{
+    stroke-dashoffset: 2500;
+  }
+  80%{
+    stroke-dashoffset: 0;
+  }
+}
+
+.menulink {
+  font-family: 'Playfair Display', serif;  
+  font-size: 35px;  
+  margin-left: -10px;  
+  text-transform: uppercase;  
+  font-weight: 400;  
+  text-decoration: none;  
+  color: #000;  
+  transform: translateX(-200px);
+  display: inline-block;
+  padding-top: 30px;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+
+.menu_about_me {
+  position: fixed;  
+  top: 10px;        
+  right: 20px;         
+  gap: 20px;
+}    
+
+.menu_about_me a {
+  text-decoration: none;
+  color: #000; 
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  padding: 5px 10px; 
+}

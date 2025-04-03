@@ -413,7 +413,7 @@ img {
 }
 
 .Illustration1:hover {
-  content: url('/images/shalom2.jpg');
+  content: url('images/shalom2.jpg');
 }
 
 .purple_Illustration {
@@ -459,7 +459,7 @@ img {
 }
 
 .ellie_illustration:hover {
-  content: url('/images/elie2.jpg');
+  content: url('images/elie2.jpg');
 }
 
 .green_dress {
@@ -497,7 +497,7 @@ img {
 }
 
 .dior_dress:hover {
-  content: url('/images/dior2.png'); 
+  content: url('images/dior2.png'); 
 }
 
 .malina_menu {
@@ -526,7 +526,7 @@ img {
 
 
 .malina_menu:hover {
-  content: url('/images/menu\ left\ side.JPG');
+  content: url('images/menu\ left\ side.JPG');
 }
 
 .restaurant_menu {
@@ -570,7 +570,7 @@ img {
 }
 
 .sculpture:hover {
-  content: url('/images/time2.png');
+  content: url('images/time2.png');
 }
 
 .zine_book {
@@ -606,7 +606,7 @@ img {
 }
 
 .zine:hover {
-  content: url('/images/zineee2.jpg');
+  content: url('images/zineee2.jpg');
 }
 
 .fade-in4 {

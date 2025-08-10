@@ -417,7 +417,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: illustration1 2s forwards; 
   animation-delay: 2s; 
 }
 
@@ -471,7 +471,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: ellie_illustration 2s forwards; 
   animation-delay: 2s; 
 }
 
@@ -516,7 +516,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: dior_dress 2s forwards; 
   animation-delay: 2s; 
 }
 
@@ -556,7 +556,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: malina_menu 2s forwards; 
   animation-delay: 3s; 
 }
 
@@ -597,7 +597,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il10 2s forwards; 
   animation-delay: 4s; 
 }
 
@@ -629,7 +629,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il11 2s forwards; 
   animation-delay: 4s; 
 }
 
@@ -661,7 +661,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il4 2s forwards; 
   animation-delay: 4s; 
 }
 
@@ -725,7 +725,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il12 2s forwards; 
   animation-delay: 5s; 
 }
 
@@ -758,7 +758,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il13 2s forwards; 
   animation-delay: 5s; 
 }
 
@@ -791,7 +791,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il14 2s forwards; 
   animation-delay: 5s; 
 }
 
@@ -824,7 +824,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il15 2s forwards; 
   animation-delay: 5s; 
 }
 
@@ -859,7 +859,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: sculpture 2s forwards; 
   animation-delay: 3s; 
 }
 
@@ -892,7 +892,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: zine 2s forwards; 
   animation-delay: 3s; 
 }
 
@@ -925,7 +925,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il9 2s forwards; 
   animation-delay: 3s; 
 }
 
@@ -946,7 +946,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il16 2s forwards; 
   animation-delay: 6s; 
 }
 
@@ -978,7 +978,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il17 2s forwards; 
   animation-delay: 6s; 
 }
 
@@ -1010,7 +1010,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il18 2s forwards; 
   animation-delay: 6s; 
 }
 
@@ -1042,7 +1042,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il19 2s forwards; 
   animation-delay: 7s; 
 }
 
@@ -1074,7 +1074,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il20 2s forwards; 
   animation-delay: 7s; 
 }
 
@@ -1106,7 +1106,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il21 2s forwards; 
   animation-delay: 7s; 
 }
 
@@ -1138,7 +1138,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il22 2s forwards; 
   animation-delay: 8s; 
 }
 
@@ -1170,7 +1170,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il23 2s forwards; 
   animation-delay: 8s; 
 }
 
@@ -1202,7 +1202,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il24 2s forwards; 
   animation-delay: 8s; 
 }
 
@@ -1234,7 +1234,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il25 2s forwards; 
   animation-delay: 8s; 
 }
 
@@ -1266,7 +1266,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il26 2s forwards; 
   animation-delay: 9s; 
 }
 
@@ -1298,7 +1298,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il29 2s forwards; 
   animation-delay: 9s; 
 }
 
@@ -1330,7 +1330,7 @@ img {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
+  animation: il28 2s forwards; 
   animation-delay: 9s; 
 }
 
@@ -1996,3 +1996,4 @@ img {
   height: auto;
   display: block;
 }
+

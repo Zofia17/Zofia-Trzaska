@@ -411,60 +411,51 @@ svg {
   overflow: hidden;
 }
 
+.about_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Obrazek */
+.about_illustration {
+  width: 300px;
+  height: auto;
+  flex-shrink: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+/* Tekst */
 .h2_about {
-  margin: 40px auto;
-  max-width: 800px;
-  padding: 0 20px;
-  text-align: justify;
   font-size: 18px;
   line-height: 1.6;
+  max-width: 600px;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
 }
 
-.about_illustration {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 30px auto;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 2s forwards;
-  animation-delay: 1s;
-  z-index: 1;
-}
-
-/* Animacja */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
+/* Układ na telefonie */
 @media (max-width: 768px) {
-  .h2_about {
-    margin: 20px auto;
-    padding: 0 10px;
-    font-size: 16px;
-    text-align: left;
+  .about_content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
 
   .about_illustration {
-    width: 90%;
+    width: 80%;
     max-width: 280px;
-    margin: 20px auto;
   }
 
-  .menu_about_me {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .h2_about {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
   }
 }
 
@@ -2038,6 +2029,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

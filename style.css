@@ -465,40 +465,34 @@ img {
 }
 
 .green_dress {
-  position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-  width: 370px; /* dodane, jeśli potrzebujesz */
-  height: auto;
-  opacity: 1 !important;
-  transform: none !important;
-  animation: none !important;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  margin: 0;
 }
 
 .dior_dress {
-  width: 370px !important;
-  height: auto !important;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: absolute !important;
-  top: 90px !important;
-  left: 550px !important;
-  opacity: 1 !important;
-  transform: translateY(0px) !important;
-  animation: none !important;
+  width: 370px;
+  height: auto;
+  margin: 0;
+  position: relative;
+  top: 90px;
+  left: 550px;
+  opacity: 1;
+  transform: none;
+  animation: none;
+  transition: opacity 0.3s ease;
 }
 
 .malina_menu {
-  position: absolute;
+  position: relative;
   width: 300px;
   height: auto;
   top: 30px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
   animation: none;
 }
 
@@ -506,132 +500,25 @@ img {
 .illustration10,
 .illustration11,
 .illustration4 {
-  position: absolute;
-  margin-right: 0;
-  margin-bottom: 0;
+  position: relative;
+  top: 650px;
+  left: 50px;
+  margin: 0;
 }
 
-.restaurant_menu {
-  top: 650px;  
-  left: 50px; 
-}
-
-.illustration10 {
-  top: 650px;  
-  left: 50px; 
-}
-
-.illustration11 {
-  top: 650px;  
-  left: 480px; 
-}
-
-.illustration4 {
-  top: 650px;  
-  left: 910px; 
-}
-
-.il10 {
-  position: absolute !important;
-  width: 370px !important;
-  height: auto !important;
-  top: 480px !important;
-  left: 120px !important;
-  transition: opacity 0.3s ease !important;
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-  animation: none !important;
-}
-
+.il10,
 .il11,
 .il4 {
-  position: absolute;
+  position: relative;
   width: 370px;
   height: auto;
   top: 480px;
   left: 120px;
   transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px);
-  animation-delay: 4s;
-  animation-fill-mode: forwards;
+  opacity: 1;
+  transform: none;
+  animation: none;
 }
-
-.il11 {
-  animation-name: il11;
-}
-
-.il4 {
-  animation-name: il4;
-}
-
-@keyframes il11 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes il4 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Responsywność */
-
-@media (max-width: 768px) {
-  .green_dress,
-  .dior_dress,
-  .malina_menu {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    width: 90% !important;
-    max-width: 300px !important;
-    margin: 10px auto !important;
-    transform: none !important;
-    opacity: 1 !important;
-    animation: none !important;
-  }
-
-  .restaurant_menu,
-  .illustration10,
-  .illustration11,
-  .illustration4 {
-    top: auto !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    position: relative !important;
-    margin: 20px auto !important;
-    width: 90% !important;
-    max-width: 350px !important;
-  }
-
-  .il10,
-  .il11,
-  .il4 {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    transform: none !important;
-    width: 100% !important;
-    max-width: 300px !important;
-    margin: 10px auto !important;
-    opacity: 1 !important;
-    animation: none !important;
-  }
-}
-
 
 .illustration12 {
   position: absolute;
@@ -1926,6 +1813,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

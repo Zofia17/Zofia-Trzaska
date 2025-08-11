@@ -246,14 +246,17 @@ h5{
   }
 }
 
-/* Media query dla telefonów */
 @media (max-width: 768px) {
   .menu {
-    width: 100%; /* zajmij całą szerokość ekranu */
-    padding: 20px; /* zmniejszony padding */
-    align-items: center; /* wyśrodkowanie tekstu */
+    width: 100%;               /* menu zajmuje całą szerokość */
+    padding: 20px;             /* zmniejszony padding */
+    align-items: center;       /* wyśrodkowanie pozycji elementów w menu */
+    font-size: 16px;           /* nieco mniejszy tekst */
+    height: auto;              /* dopasuj wysokość do treści (opcjonalne) */
+    top: 60px;                 /* przesunięcie niżej, jeśli masz nagłówek */
   }
 }
+
 body {
   background-color: #F3F0E9;
   height: 100%;             
@@ -1999,6 +2002,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

@@ -546,15 +546,15 @@ width: 370px !important;
 }
 
 .malina_menu {
-  position: absolute !important;
-  width: 300px !important;
-  height: auto !important;
-  top: 30px !important;
-  left: 120px !important;
-  transition: opacity 0.3s ease !important;
-  opacity: 1 !important; /* <- wymusza widoczność */
-  transform: translateY(0) !important; /* <- zatrzymuje przesunięcie */
-  animation: none !important; /* <- wyłącza animację, jeśli przeszkadza */
+  position: absolute ;
+  width: 300px;
+  height: auto;
+  top: 30px;
+  left: 120px;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+  transform: translateY(0); 
+  animation: none; 
 }
 
 @keyframes malina_menu {
@@ -1997,6 +1997,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

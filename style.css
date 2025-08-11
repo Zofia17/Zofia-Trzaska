@@ -426,12 +426,13 @@ img {
     top: auto;  /* usuń dokładne pozycjonowanie */
     left: auto;
     position: relative;
-    transform: none;
-    animation-delay: 1s;
+    /*transform: none;*/
+    /*animation-delay: 1s;*/
     opacity: 1;
   }
 }
 
+/*
 @keyframes Illustration1 {
   0% {
     opacity: 0;
@@ -442,7 +443,7 @@ img {
     transform: translateY(0); 
   }
 }
-
+*/
 .purple_Illustration {
   position: absolute;
   top: 50px;  
@@ -1996,6 +1997,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

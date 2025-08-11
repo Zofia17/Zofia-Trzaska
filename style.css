@@ -587,16 +587,15 @@ width: 370px !important;
 }
 
 .il10 {
-  position: absolute;
-  width: 370px;
-  height: auto;
-  top: 480px;
-  left: 120px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: il10 2s forwards; 
-  animation-delay: 4s; 
+ position: absolute !important;
+  width: 370px !important;
+  height: auto !important;
+  top: 480px !important;
+  left: 120px !important;
+  transition: opacity 0.3s ease !important;
+  opacity: 1 !important; /* <- jeśli chcesz, aby obraz był zawsze widoczny */
+  transform: translateY(0) !important; /* <- usuwa efekt przesunięcia */
+  animation: none !important; /* <- usuwa animację, jeśli ona przeszkadza */
 }
 
 @keyframes il10 {
@@ -1999,6 +1998,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

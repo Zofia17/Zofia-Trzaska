@@ -417,19 +417,13 @@ img {
 .Illustration1 {
   width: 370px;
   height: auto;
-  margin: 0;           /* usuń marginesy, jeśli niepotrzebne */
-  position: relative;  /* usuń absolute, by nie porozrzucać */
+  margin: 0;           /* brak marginesów */
+  position: relative;  /* względne pozycjonowanie, aby uniknąć rozrzucania */
   opacity: 1;
   transform: none;
-  animation: none;
+  animation: none;     /* animacja wyłączona */
   transition: opacity 0.3s ease;
   display: block;
-}
-
-@media (max-width: 768px) {
-   .Illustration1 {
-    width: 90%; 
-  }
 }
 
 @keyframes Illustration1 {
@@ -1952,6 +1946,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

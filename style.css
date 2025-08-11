@@ -64,7 +64,6 @@ h5{
   margin-left: -17rem;
 }
 
-/*
 @media (max-width: 768px) {
   h4 {
     font-size: 0.9rem;
@@ -76,7 +75,6 @@ h5{
     letter-spacing: 0.05rem;
   }
 }
-*/
 
 .contact-container {
  display: flex;
@@ -89,13 +87,12 @@ h5{
   text-align: center;
 }
 
-/*
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
     letter-spacing: 0.1rem;
   }
-*/
+
 
   h3 {
     font-size: 1rem;
@@ -135,7 +132,6 @@ h5{
   }
 }
 
-/*
 @media (max-width: 768px) {
   .instagram.link {
     font-size: 0.9rem;
@@ -143,7 +139,6 @@ h5{
     left: 0.5rem;
   }
 }
-*/
 
 .fade-in {
   opacity: 0; 
@@ -249,7 +244,6 @@ h5{
   }
 }
 
-/*
 @media (max-width: 768px) {
   .menu {
     padding-left: 20px;
@@ -257,7 +251,6 @@ h5{
     align-items: center;
   }
 }
-*/
 
 body {
   background-color: #F3F0E9;
@@ -292,7 +285,6 @@ h2 {
   }
 }
 
-/*
 @media (max-width: 768px) {
   h2 {
     left: 1rem;
@@ -300,7 +292,6 @@ h2 {
     width: 90%;
   }
 }
-*/
 
 head {
   font-family: "Playfair Display", serif;
@@ -403,13 +394,11 @@ svg {
   margin-left: 250px;
 }
 
-/*
 @media (max-width: 768px) {
   .h2_about {
     margin-left: 20px; /* lub 0, jeśli chcesz, by było przy lewej krawędzi */
   }
 }
-*/
 
 img {
   width: 1400px;
@@ -2025,6 +2014,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

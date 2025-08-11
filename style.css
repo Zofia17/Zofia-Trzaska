@@ -411,6 +411,18 @@ svg {
   overflow: hidden;
 }
 
+.about_content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
 /* Obrazek */
 .about_illustration {
   width: 300px;
@@ -422,14 +434,27 @@ svg {
 
 /* Tekst */
 .h2_about {
+  flex: 1;
   font-size: 18px;
   line-height: 1.6;
-  max-width: 600px;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
+  padding: 10px;
+  max-width: 600px;
 }
 
-/* Układ na telefonie */
+/* Animacja fadeIn (upewnij się że istnieje) */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .about_content {
     flex-direction: column;
@@ -438,16 +463,19 @@ svg {
   }
 
   .about_illustration {
-    width: 80%;
+    width: 90%;
     max-width: 280px;
+    margin-bottom: 20px;
   }
 
   .h2_about {
     font-size: 16px;
+    padding: 0 10px;
     text-align: left;
-    padding: 10px;
+    max-width: 100%;
   }
 }
+
 
 img {
   width: 1400px;
@@ -2019,6 +2047,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

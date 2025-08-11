@@ -428,7 +428,7 @@ svg {
   width: 300px;
   height: auto;
   flex-shrink: 0;
-  margin-left: 0;             /* przy lewej krawędzi */
+  margin-left: -40px;             /* przy lewej krawędzi */
   margin-right: 40px;         /* odstęp od tekstu */
   align-self: flex-start;     /* wyrównanie do góry/lewej w flexboxie */
   animation: fadeIn 2s forwards;
@@ -2051,6 +2051,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

@@ -546,16 +546,15 @@ width: 370px !important;
 }
 
 .malina_menu {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 30px;
-  left: 120px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: malina_menu 2s forwards; 
-  animation-delay: 3s; 
+  position: absolute !important;
+  width: 300px !important;
+  height: auto !important;
+  top: 30px !important;
+  left: 120px !important;
+  transition: opacity 0.3s ease !important;
+  opacity: 1 !important; /* <- wymusza widoczność */
+  transform: translateY(0) !important; /* <- zatrzymuje przesunięcie */
+  animation: none !important; /* <- wyłącza animację, jeśli przeszkadza */
 }
 
 @keyframes malina_menu {
@@ -1998,6 +1997,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

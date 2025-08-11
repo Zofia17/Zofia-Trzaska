@@ -443,58 +443,52 @@ img {
   }
 }
 
-.purple_Illustration {
+.purple_Illustration,
+.brown_dress,
+.ellie_illustration {
   position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 0;
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+  transition: opacity 0.3s ease;
+  height: auto;
+}
+
+/* Twoje konkretne pozycje na desktop */
+.purple_Illustration {
+  top: 50px;
+  left: 50px;
+  width: 370px;
 }
 
 .brown_dress {
-  position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
+  top: 50px;
+  left: 50px;
+  width: 370px;
 }
 
 .ellie_illustration {
-  width: 370px;
-  height: auto;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: absolute;
   top: 90px;
   left: 980px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: ellie_illustration 2s forwards; 
-  animation-delay: 2s; 
+  width: 370px;
 }
 
-@keyframes ellie_illustration {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
+/* Responsywność - zmieniamy pozycjonowanie i rozmiar na mniejszych ekranach */
 @media (max-width: 768px) {
   .purple_Illustration,
-  .ellie_illustration
-  .brown_dress {
-    top: 30px;
-    left: 20px;
-    width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
+  .brown_dress,
+  .ellie_illustration {
+    position: relative !important; /* zmiana na normalny flow strony */
+    top: auto !important;
+    left: auto !important;
+    width: 90% !important;
+    max-width: 150px !important; /* lub inna wartość */
+    margin: 10px auto !important; /* wyśrodkowanie */
+    transform: none !important;
+    opacity: 1 !important;
   }
 }
-
 
 .green_dress {
   position: absolute;
@@ -1996,6 +1990,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

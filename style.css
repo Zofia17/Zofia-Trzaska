@@ -415,17 +415,16 @@ img {
   top: 90px;
   left: 120px;
   transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: illustration1 2s forwards; 
-  animation-delay: 2s; 
+  opacity: 1; /* zmienione z 0 na 1 */
+  transform: translateY(0); /* zmienione z translateY(20px) na 0 */
+  animation: none; /* wyłączona animacja */ 
 }
 
 @media (max-width: 768px) {
   .Illustration1 {
     width: 90%;
-    top: 2rem;
-    left: 5%;
+    top: auto;  /* usuń dokładne pozycjonowanie */
+    left: auto;
     position: relative;
     transform: none;
     animation-delay: 1s;
@@ -1997,6 +1996,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

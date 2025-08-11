@@ -424,6 +424,7 @@ img {
   animation-delay: 2s; 
 }
 
+/*
 @media (max-width: 768px) {
   .Illustration1 {
     width: 90%;
@@ -435,6 +436,7 @@ img {
     opacity: 1;
   }
 }
+*/ 
 
 @keyframes Illustration1 {
   0% {
@@ -489,6 +491,7 @@ img {
   }
 }
 
+/*
 @media (max-width: 768px) {
   .purple_Illustration,
   .ellie_illustration
@@ -498,7 +501,7 @@ img {
     width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
   }
 }
-
+*/
 
 .green_dress {
   position: absolute;
@@ -534,13 +537,14 @@ img {
   }
 }
 
+/*
 @media (max-width: 768px) {
   .green_dress {
     top: 30px;
     left: 20px;
     width: 150px; /* jeśli obrazek nie ma width */
   }
-
+*/
   .dior_dress {
     top: 200px;
     left: 50%;
@@ -2000,6 +2004,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

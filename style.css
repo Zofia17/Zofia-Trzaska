@@ -421,7 +421,6 @@ img {
   animation-delay: 2s; 
 }
 
-/*
 @media (max-width: 768px) {
   .Illustration1 {
     width: 90%;
@@ -433,7 +432,6 @@ img {
     opacity: 1;
   }
 }
-*/
 
 @keyframes Illustration1 {
   0% {
@@ -488,7 +486,6 @@ img {
   }
 }
 
-/*
 @media (max-width: 768px) {
   .purple_Illustration,
   .ellie_illustration
@@ -498,7 +495,6 @@ img {
     width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
   }
 }
-*/
 
 
 .green_dress {
@@ -533,14 +529,12 @@ width: 370px !important;
   }
 }
 
-/*
 @media (max-width: 768px) {
   .green_dress {
     top: 30px;
     left: 20px;
     width: 150px; /* jeśli obrazek nie ma width */
   }
-*/
 
   .dior_dress {
     top: 200px;
@@ -680,7 +674,6 @@ width: 370px !important;
   }
 }
 
-/*
 @media (max-width: 768px) {
   .malina_menu {
     top: 20px;
@@ -712,7 +705,6 @@ width: 370px !important;
     margin: 10px auto;
   }
 }
-*/
 
 .illustration12 {
   position: absolute;
@@ -1351,7 +1343,6 @@ width: 370px !important;
   }
 }
 
-/*
 @media (max-width: 768px) {
   /* Kontenery ilustracji */
   .illustration12,
@@ -1417,7 +1408,6 @@ width: 370px !important;
     margin: 10px auto !important;
   }
 }
-*/
 
 .fade-in4 {
   opacity: 0;
@@ -1587,7 +1577,6 @@ width: 370px !important;
   }
 }
 
-/*
 .dior_page {
   font-family: "Playfair Display", serif;
   text-align:left;
@@ -1660,7 +1649,6 @@ width: 370px !important;
     transform: translateY(0); 
   }
 }
-*/
 
 .no-scroll {
  position: fixed;
@@ -1947,7 +1935,6 @@ width: 370px !important;
 }
 
 /* Ekrany do 768px (tablety i mniejsze) */
-/*
 @media (max-width: 768px) {
   .about_illustration {
     width: 50%;           /* większa szerokość, żeby lepiej wypełnić mniejszy ekran */
@@ -1958,7 +1945,7 @@ width: 370px !important;
     animation: none;
     z-index: 1;
   }
-  */
+
 
   .contact_page1 {
     width: 40%;
@@ -1984,13 +1971,11 @@ width: 370px !important;
 }
 
 /* Ekrany do 480px (smartfony) */
-/*
 @media (max-width: 480px) {
   .about_illustration {
     width: 80%;
     margin-right: 0;
   }
-*/
   .contact_page1 {
     width: 80%;
     margin-left: 0;
@@ -2014,6 +1999,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 
 

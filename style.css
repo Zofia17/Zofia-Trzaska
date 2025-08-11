@@ -428,6 +428,9 @@ svg {
   width: 300px;
   height: auto;
   flex-shrink: 0;
+  margin-left: 0;             /* przy lewej krawędzi */
+  margin-right: 40px;         /* odstęp od tekstu */
+  align-self: flex-start;     /* wyrównanie do góry/lewej w flexboxie */
   animation: fadeIn 2s forwards;
   animation-delay: 1s;
 }
@@ -463,9 +466,10 @@ svg {
   }
 
   .about_illustration {
-    width: 90%;
+     margin: 0 auto;           /* wyśrodkowanie */
+    display: block;           /* upewnij się, że może być centrowany */
+    width: 80%;               /* mniejsza szerokość na telefonie */
     max-width: 280px;
-    margin-bottom: 20px;
   }
 
   .h2_about {
@@ -2047,6 +2051,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

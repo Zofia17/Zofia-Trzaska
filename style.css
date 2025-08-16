@@ -1382,8 +1382,7 @@ img {
   }
 }
 
-/*
-@media (max-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   /* Kontenery ilustracji */
   .illustration12,
   .illustration13,
@@ -1412,7 +1411,7 @@ img {
     width: 90% !important;
     max-width: 350px;
     transform: none !important;
-  } */
+  } 
 
   /* Same ilustracje *//*
   .il12,
@@ -1885,6 +1884,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

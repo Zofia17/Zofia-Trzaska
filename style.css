@@ -1901,7 +1901,7 @@ img {
   .h2_about {
     font-size: 14px;
     width: 90%;
-    left: 5%;
+    left: 10% !important;
     right: 5%;
     top: 30%;
     transform: none;
@@ -1988,6 +1988,7 @@ img {
   
 
 }
+
 
 
 

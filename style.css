@@ -421,8 +421,8 @@ img {
   animation-delay: 2s; 
 }
 
-/*
-@media (max-width: 768px) {
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .Illustration1 {
     width: 90%;
     top: 2rem;
@@ -432,7 +432,7 @@ img {
     animation-delay: 1s;
     opacity: 1;
   }
-}*/
+}
 
 @keyframes Illustration1 {
   0% {
@@ -1885,6 +1885,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

@@ -1873,8 +1873,7 @@ img {
 }
 
 .about_illustration {
-  width: 40%;
-  min-width: 250px;
+   width: 40%; /* dopasowane do h2 */
   height: auto;
   opacity: 0;
   animation: fadeIn 2s forwards;
@@ -1887,25 +1886,24 @@ img {
 }  
 
 .about_content {
-  display: flex;
-  align-items: center;
+   display: flex;
+  flex-direction: row; /* elementy obok siebie */
   justify-content: center;
-  gap: 50px;              /* odstęp między tekstem a obrazem */
-  flex-wrap: wrap;       /* pozwala zawijać na małym ekranie */
+  align-items: center;
+  gap: 50px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  flex-wrap: nowrap; /* NIE pozwala zawijać */
 }
   
 .h2_about {
   font-weight: 300;
-  width: 40%;
-  min-width: 250px;
-  margin: 0; 
-  opacity: 0; 
+  width: 40%; /* mniej niż 50% */
+  margin: 0;
+  font-size: 2rem;
+  opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
-  font-size: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -1914,7 +1912,7 @@ img {
   }
 
   .about_content {
-    flex-direction: column; /* pionowy układ */
+    flex-direction: column; /* układ pionowy */
     text-align: center;
   }
 
@@ -2009,6 +2007,7 @@ img {
   
 
 }
+
 
 
 

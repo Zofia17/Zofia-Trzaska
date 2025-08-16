@@ -261,7 +261,6 @@ body {
 }
 
 h2 {
-  position: fixed;
   font-weight: 300;
   width: 50%;
   margin: 0; 
@@ -271,7 +270,7 @@ h2 {
   animation: fadeIn 2s forwards; 
   animation-delay: 0.5s; 
   z-index: 2;  
-  right: 20%;
+  right: 10%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1990,6 +1989,7 @@ img {
   
 
 }
+
 
 
 

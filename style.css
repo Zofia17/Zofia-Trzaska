@@ -272,7 +272,6 @@ h2 {
   z-index: 2;  
   right: 10%;
   top: 30%;
-  transform: translateY(-50%);
 }
 
 @keyframes h2 {
@@ -288,7 +287,7 @@ h2 {
 
 @media (max-width: 768px) {
   h2 {
-    left: 1rem;
+    left: 2rem;
     font-size: 1rem;
     width: 90%;
   }
@@ -1989,6 +1988,7 @@ img {
   
 
 }
+
 
 
 

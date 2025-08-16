@@ -421,6 +421,7 @@ img {
   animation-delay: 2s; 
 }
 
+/*
 @media (max-width: 768px) {
   .Illustration1 {
     width: 90%;
@@ -431,7 +432,7 @@ img {
     animation-delay: 1s;
     opacity: 1;
   }
-}
+}*/
 
 @keyframes Illustration1 {
   0% {
@@ -1413,7 +1414,7 @@ img {
     transform: none !important;
   } */
 
-  /* Same ilustracje */
+  /* Same ilustracje *//*
   .il12,
   .il13,
   .il14,
@@ -1446,7 +1447,7 @@ img {
     transform: none !important;
     margin: 10px auto !important;
   }
-}
+}*/
 
 
 .fade-in4 {
@@ -1884,6 +1885,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

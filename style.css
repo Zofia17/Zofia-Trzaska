@@ -1884,7 +1884,7 @@ img {
 .about_illustration {
   width: 20%;
   height: auto;
-  margin-right: 880px;
+  margin-right: 800px;
   opacity: 0; 
   transform: translateY(20px); 
   animation: fadeIn 2s forwards; 
@@ -2005,6 +2005,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

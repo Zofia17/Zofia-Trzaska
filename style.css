@@ -1893,15 +1893,14 @@ img {
   }
 
 .h2_about {
-  left: 500px; 
-  top: 1500px;
+  left: 1000px; 
+  top: 500px;
   font-size: 18px;
 }
 
 @media screen and (max-width: 600px) {
   .h2_about {
     max-width: 100%;
-    width: 60%;
     font-size: 14px;
   }
 }  
@@ -1986,6 +1985,7 @@ img {
   
 
 }
+
 
 
 

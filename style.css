@@ -271,7 +271,7 @@ h2 {
   animation-delay: 0.5s; 
   z-index: 2;  
   right: 10%;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
 }
 
@@ -1989,6 +1989,7 @@ img {
   
 
 }
+
 
 
 

@@ -1896,6 +1896,9 @@ img {
     z-index: 1;
   }
 
+.about_section {
+  padding-top: 150px; /* przesunięcie całości w dół */
+}  
 .h2_about {
   font-size: 18px;
 }
@@ -1991,6 +1994,7 @@ img {
   
 
 }
+
 
 
 

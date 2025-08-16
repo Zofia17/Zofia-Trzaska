@@ -1904,10 +1904,9 @@ img {
   }
 
 .h2_about {
-  left: 500px;
+  left: 500px; 
   top: 1500px;
   font-size: 18px;
-  left: 0;
 }
 
 @keyframes h2 {
@@ -1976,11 +1975,6 @@ img {
     overflow: visible;
   }
   
-  .h2_about {
-    left: 0;
-    text-align: center;
-    position: relative;
-  }
 }
 
 /* Ekrany do 480px (smartfony) */
@@ -2004,6 +1998,7 @@ img {
   
 
 }
+
 
 
 

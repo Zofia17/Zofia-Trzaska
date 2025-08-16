@@ -1892,6 +1892,17 @@ img {
   z-index: 1;         
 }
 
+@media screen and (max-width: 600px) {
+  .about_illustration {
+    max-width: 100%;           
+    margin-right: 0;      
+    position: relative;   
+    opacity: 1;
+    transform: none;
+    animation: none;
+    z-index: 1;
+  }
+
 .h2_about {
   left: 300px;
 }
@@ -1945,18 +1956,6 @@ img {
     transform: translateY(0); 
   }
 }
-
-/* Ekrany do 768px (tablety i mniejsze) */
-@media (max-width: 768px) {
-  .about_illustration {
-    width: 50%;           /* większa szerokość, żeby lepiej wypełnić mniejszy ekran */
-    margin-right: 0;      /* usuń duży margines */
-    position: relative;   /* lepsze pozycjonowanie */
-    opacity: 1;
-    transform: none;
-    animation: none;
-    z-index: 1;
-  }
   
   .contact_page1 {
     width: 40%;
@@ -2005,6 +2004,7 @@ img {
     left: 0;
   }
 }
+
 
 
 

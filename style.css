@@ -1905,6 +1905,9 @@ img {
 
 .h2_about {
   left: 300px;
+  top: 500px;
+  font-size: 18px;
+  left: 0;
 }
 
 @keyframes h2 {
@@ -1999,11 +2002,9 @@ img {
     top: 10px;
   }
   
-  .h2_about {
-    font-size: 18px;
-    left: 0;
-  }
+
 }
+
 
 
 

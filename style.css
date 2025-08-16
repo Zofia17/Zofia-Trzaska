@@ -272,6 +272,7 @@ h2 {
   z-index: 2;  
   right: 10%;
   top: 30%;
+  transform: translateY(-50%);
 }
 
 @keyframes h2 {
@@ -1901,7 +1902,7 @@ img {
   .h2_about {
     font-size: 14px;
     width: 90%;
-    left: 10% !important;
+    left: 10%;
     right: 5%;
     top: 30%;
     transform: none;
@@ -1988,6 +1989,7 @@ img {
   
 
 }
+
 
 
 

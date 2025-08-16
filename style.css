@@ -870,14 +870,14 @@ img {
   }
 }
 
-
+/*
 .zine_book {
   position: absolute;
   top: 650px;  
   left: 50px; 
   margin-right: 0;
   margin-bottom: 0;
-}
+}*/
 
 .zine {
   position: absolute;
@@ -892,6 +892,12 @@ img {
   animation-delay: 3s; 
 }
 
+@media only screen and (max-width: 600px) {
+  .zine {\
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 @keyframes zine {
   0% {
@@ -903,6 +909,8 @@ img {
     transform: translateY(0); 
   }
 }
+
+
 
 .illustration9 {
   position: absolute;
@@ -1997,5 +2005,6 @@ img {
     left: 0;
   }
 }
+
 
 

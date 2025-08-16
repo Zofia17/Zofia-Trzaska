@@ -389,17 +389,6 @@ svg {
   overflow: hidden;
 }
 
-.h2_about {
-  margin-left: 250px;
-}
-
-@media (max-width: 768px) {
-  .h2_about {
-    margin-left: 20px; /* lub 0, jeśli chcesz, by było przy lewej krawędzi */
-  }
-}
-
-
 img {
   width: 1400px;
   height: auto;
@@ -1998,6 +1987,7 @@ img {
   
 
 }
+
 
 
 

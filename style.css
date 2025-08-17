@@ -1892,6 +1892,7 @@ img {
   opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 1s;
+  transform: translateY(-30px); /* przesuwa obrazek do góry */
 }   
 
 .about_section {
@@ -1927,6 +1928,7 @@ img {
 
   .about_illustration {
     width: 70%;
+    transform: translateY(0); /* cofnięcie przesunięcia na telefonie */
   }
 }
 
@@ -2010,6 +2012,7 @@ img {
   
 
 }
+
 
 
 

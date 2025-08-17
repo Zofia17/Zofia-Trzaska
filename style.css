@@ -1,4 +1,4 @@
-.html{
+html{
   height: 100%; 
   margin: 0;
   overflow: auto;
@@ -241,7 +241,7 @@ h5{
   }
 }
 
-.body {
+body {
   background-color: #F3F0E9;
   height: 100%;             
   margin: 0;
@@ -1994,6 +1994,7 @@ h5{
   }
 }
   
+
 
 
 

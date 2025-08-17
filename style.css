@@ -1878,7 +1878,7 @@ img {
   font-weight: 300;
   width: 40%; /* mniej niż 50% */
   margin: 0;
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
   opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
@@ -2007,6 +2007,7 @@ img {
   
 
 }
+
 
 
 

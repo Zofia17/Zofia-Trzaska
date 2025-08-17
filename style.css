@@ -333,7 +333,7 @@ svg {
 @media (max-width: 768px) {
   .container {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
     margin-top: 0;
     width: auto;
@@ -2030,6 +2030,7 @@ img {
   
 
 }
+
 
 
 

@@ -1922,7 +1922,7 @@ img {
 
   .h2_about {
     width: 90%;
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
     margin-bottom: 1rem;
   }
 
@@ -2012,6 +2012,7 @@ img {
   
 
 }
+
 
 
 

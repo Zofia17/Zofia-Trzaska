@@ -4,7 +4,7 @@ html{
   overflow: auto;
 }
 
-.body {
+body {
   display: flex;
   align-items: center;      /* pionowe centrowanie */
   justify-content: center;  /* poziome centrowanie */
@@ -1994,6 +1994,7 @@ img {
   }
 }
   
+
 
 
 

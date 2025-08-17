@@ -19,6 +19,62 @@ h1{
   text-align: center;
 }
 
+.h2_about {
+  font-weight: 300;
+  width: 40%; /* mniej niż 50% */
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 0.5s;
+}
+
+.about_illustration {
+   width: 40%; /* dopasowane do h2 */
+  height: auto;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+  transform: translateY(-30px); /* przesuwa obrazek do góry */
+}   
+
+.about_section {
+  padding-top: 150px; /* przesunięcie całości w dół */
+}  
+
+.about_content {
+   display: flex;
+  flex-direction: row; /* elementy obok siebie */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: nowrap; /* NIE pozwala zawijać */
+}
+  
+@media (max-width: 768px) {
+  .about_section {
+    padding-top: 100px; 
+  }
+
+  .about_content {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .h2_about {
+    width: 90%;
+    font-size: 0.875rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .about_illustration {
+    width: 70%;
+  }
+}
+  
 /*
  h2 {
   font-weight: 300;
@@ -1938,62 +1994,8 @@ img {
   overflow: hidden;
 }
 
-.h2_about {
-  font-weight: 300;
-  width: 40%; /* mniej niż 50% */
-  margin: 0;
-  text-align: center;
-  font-size: 1.5rem;
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 0.5s;
-}
 
-.about_illustration {
-   width: 40%; /* dopasowane do h2 */
-  height: auto;
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 1s;
-  transform: translateY(-30px); /* przesuwa obrazek do góry */
-}   
 
-.about_section {
-  padding-top: 150px; /* przesunięcie całości w dół */
-}  
-
-.about_content {
-   display: flex;
-  flex-direction: row; /* elementy obok siebie */
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-wrap: nowrap; /* NIE pozwala zawijać */
-}
-  
-@media (max-width: 768px) {
-  .about_section {
-    padding-top: 100px; 
-  }
-
-  .about_content {
-    flex-direction: column; 
-    text-align: center;
-  }
-
-  .h2_about {
-    width: 90%;
-    font-size: 0.875rem !important;
-    margin-bottom: 1rem;
-  }
-
-  .about_illustration {
-    width: 70%;
-  }
-}
-  
 
 
 

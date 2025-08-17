@@ -1879,11 +1879,10 @@ img {
   width: 40%; /* mniej niż 50% */
   margin: 0;
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
   opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
-  transform: translateY(-30px); 
 }
 
 .about_illustration {
@@ -1928,10 +1927,8 @@ img {
 
   .about_illustration {
     width: 70%;
-    transform: translateY(0); /* cofnięcie przesunięcia na telefonie */
   }
-}
-
+  
 @keyframes h2 {
   0% {
     opacity: 0;
@@ -2012,6 +2009,7 @@ img {
   
 
 }
+
 
 
 

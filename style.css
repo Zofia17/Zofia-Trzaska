@@ -100,18 +100,6 @@ h5{
   margin-left: -17rem;
 }
 
-@media (max-width: 768px) {
-  h4 {
-    font-size: 0.9rem;
-    letter-spacing: 0.05rem;
-  }
-
-  h5 {
-    font-size: 1rem;
-    letter-spacing: 0.05rem;
-  }
-}
-
 .contact-container {
  display: flex;
   flex-direction: column;
@@ -121,24 +109,6 @@ h5{
   padding-bottom: 2rem;
   height: 100vh; /* wysokość na cały ekran */
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-    letter-spacing: 0.15rem;
-    max-width: 95vw;
-  }
-
-  .contact-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 }
 
 .instagram.link {
@@ -164,14 +134,6 @@ h5{
   100% {
     opacity: 1;
     transform: translateY(0); 
-  }
-}
-
-@media (max-width: 768px) {
-  .instagram.link {
-    font-size: 0.9rem;
-    bottom: 0.5rem;
-    left: 0.5rem;
   }
 }
 
@@ -279,14 +241,6 @@ h5{
   }
 }
 
-@media (max-width: 768px) {
-  .menu {
-    padding-left: 20px;
-    width: 100%;
-    align-items: center;
-  }
-}
-
 body {
   background-color: #F3F0E9;
   height: 100%;             
@@ -329,26 +283,6 @@ a {
   position: fixed;
   top: 0;
 }
-
-@media (max-width: 768px) {
-  .container {
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    margin-top: 0;
-    width: auto;
-    z-index: 1;
-  }
-
-  .svg {
-    width: 120px; /* mniejszy rozmiar sygnatury */
-    height: auto;
-    position: absolute; /* zmieniamy z fixed na absolute */
-    top: 0;
-    left: 0;
-  }
-}
-
 
 .text {
   margin-left: 0; /* lub inna mała wartość */
@@ -474,44 +408,6 @@ a {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .body {
-    padding-top: 5rem;
-    margin: 0;
-  }
-
-  .purple_Illustration,
-  .restaurant_menu {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    width: 100% !important;
-    margin: 0 0 2rem 0 !important;
-    padding: 0 1rem !important;
-    box-sizing: border-box;
-    display: block !important;
-  }
-
-  .Illustration1,
-  .malina_menu {
-    position: relative !important;
-    width: 100% !important;
-    height: auto !important;
-    top: auto !important;
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-    opacity: 1 !important;
-    animation: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: block !important;
-  }
-}
-
 .brown_dress {
   position: absolute;
   top: 50px;  
@@ -580,14 +476,7 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  .green_dress {
-    top: 30px;
-    left: 20px;
-    width: 150px; /* jeśli obrazek nie ma width */
-  }
-
-  .dior_dress {
+.dior_dress {
     top: 200px;
     left: 50%;
     transform: translateX(-50%) translateY(20px);
@@ -872,13 +761,6 @@ a {
   transform: translateY(20px); 
   animation: zine 2s forwards; 
   animation-delay: 3s; 
-}
-
-@media only screen and (max-width: 600px) {
-  .zine {\
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 @keyframes zine {
@@ -1340,72 +1222,6 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  /* Kontenery ilustracji */
-  .illustration12,
-  .illustration13,
-  .illustration14,
-  .illustration15,
-  .illustration16,
-  .illustration17,
-  .illustration18,
-  .illustration19,
-  .illustration20,
-  .illustration21,
-  .illustration22,
-  .illustration23,
-  .illustration24,
-  .illustration25,
-  .illustration26,
-  .illustration28,
-  .illustration29,
-  .time_book,
-  .zine_book, {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    margin: 20px auto !important;
-    width: 90% !important;
-    max-width: 350px;
-    transform: none !important;
-  }
-
-  /* Same ilustracje */
-  .il12,
-  .il13,
-  .il14,
-  .il15,
-  .il16,
-  .il17,
-  .il18,
-  .il19,
-  .il20,
-  .il21,
-  .il22,
-  .il23,
-  .il24,
-  .il25,
-  .il26,
-  .il28,
-  .il29,
-  .sculpture,
-  .zine,
-  .il9,
-  .il10,
-  .il11,
-  .il4 {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    width: 100% !important;
-    max-width: 300px !important;
-    opacity: 1 !important;
-    transform: none !important;
-    margin: 10px auto !important;
-  }
-}
-
-
 .fade-in4 {
   opacity: 0;
   transform: translateY(20px); 
@@ -1801,6 +1617,268 @@ a {
   overflow: hidden;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+.contact_page1 {
+  position: absolute;
+  width: 13%; 
+  height: auto; 
+  top: 50px;
+  margin-left: 750px;
+  z-index: -1; 
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+  animation-delay: 1s;  
+  z-index: 1;         
+}
+
+.contact_page2 {
+ position: absolute;
+  width: 21%; 
+  height: auto; 
+  top: 50px;
+  margin-left:-750px;
+  z-index: -1; 
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+  animation-delay: 1s;  
+  z-index: 1; 
+}
+
+@keyframes h2 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+  
+  .contact_page1 {
+    width: 40%;
+    top: 20px;
+    margin-left: 0;
+    position: relative;
+    opacity: 1;
+    transform: none;
+    animation: none;
+    z-index: 1;
+  }
+
+  .homepage-body {
+    position: relative;   /* zamiast fixed, by uniknąć problemów z przewijaniem */
+    overflow: visible;
+  }
+  
+  .contact_page1 {
+    width: 80%;
+    margin-left: 0;
+    top: 10px;
+  }
+
+   .contact_page2 {
+    width: 80%;
+    margin-left: 0;
+    top: 10px;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    max-width: 95vw;
+  }
+
+  .contact-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .instagram.link {
+    font-size: 0.9rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin-top: 0;
+    width: auto;
+    z-index: 1;
+  }
+
+  .svg {
+    width: 120px; /* mniejszy rozmiar sygnatury */
+    height: auto;
+    position: absolute; /* zmieniamy z fixed na absolute */
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    padding-top: 5rem;
+    margin: 0;
+  }
+
+  .purple_Illustration,
+  .restaurant_menu {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    margin: 0 0 2rem 0 !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box;
+    display: block !important;
+  }
+
+  .Illustration1,
+  .malina_menu {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    opacity: 1 !important;
+    animation: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .green_dress {
+    top: 30px;
+    left: 20px;
+    width: 150px; /* jeśli obrazek nie ma width */
+  }
+
+  @media only screen and (max-width: 600px) {
+  .zine {\
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+  @media (max-width: 768px) {
+  /* Kontenery ilustracji */
+  .illustration12,
+  .illustration13,
+  .illustration14,
+  .illustration15,
+  .illustration16,
+  .illustration17,
+  .illustration18,
+  .illustration19,
+  .illustration20,
+  .illustration21,
+  .illustration22,
+  .illustration23,
+  .illustration24,
+  .illustration25,
+  .illustration26,
+  .illustration28,
+  .illustration29,
+  .time_book,
+  .zine_book, {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 20px auto !important;
+    width: 90% !important;
+    max-width: 350px;
+    transform: none !important;
+  }
+
+  /* Same ilustracje */
+  .il12,
+  .il13,
+  .il14,
+  .il15,
+  .il16,
+  .il17,
+  .il18,
+  .il19,
+  .il20,
+  .il21,
+  .il22,
+  .il23,
+  .il24,
+  .il25,
+  .il26,
+  .il28,
+  .il29,
+  .sculpture,
+  .zine,
+  .il9,
+  .il10,
+  .il11,
+  .il4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    opacity: 1 !important;
+    transform: none !important;
+    margin: 10px auto !important;
+  }
+}
+
 @media (max-width: 768px) {
   .versace, .green_dior {
     width: 100%;
@@ -1916,86 +1994,6 @@ a {
   }
 }
   
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
-.contact_page1 {
-  position: absolute;
-  width: 13%; 
-  height: auto; 
-  top: 50px;
-  margin-left: 750px;
-  z-index: -1; 
-  opacity: 0; 
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 1s;  
-  z-index: 1;         
-}
-
-.contact_page2 {
- position: absolute;
-  width: 21%; 
-  height: auto; 
-  top: 50px;
-  margin-left:-750px;
-  z-index: -1; 
-  opacity: 0; 
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 1s;  
-  z-index: 1; 
-}
-
-@keyframes h2 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-  
-  .contact_page1 {
-    width: 40%;
-    top: 20px;
-    margin-left: 0;
-    position: relative;
-    opacity: 1;
-    transform: none;
-    animation: none;
-    z-index: 1;
-  }
-
-  .homepage-body {
-    position: relative;   /* zamiast fixed, by uniknąć problemów z przewijaniem */
-    overflow: visible;
-  }
-  
-  .contact_page1 {
-    width: 80%;
-    margin-left: 0;
-    top: 10px;
-  }
-
-   .contact_page2 {
-    width: 80%;
-    margin-left: 0;
-    top: 10px;
-  }
-  
-
-}
 
 
 

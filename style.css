@@ -573,6 +573,46 @@ img {
   animation-delay: 3s; 
 }
 
+.restaurant_menu {
+  position: absolute;
+  top: 650px;  
+  left: 50px; 
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .Illustration1,
+  .malina_menu {
+    width: 100%;
+    position: relative;
+    transform: none;
+    opacity: 1;
+    animation-delay: 1s;
+    margin-bottom: 2rem; /* Odstęp między ilustracjami */
+    padding: 0 1rem; /* Odstępy od boków */
+    box-sizing: border-box;
+  }
+
+  .malina_menu {
+    animation-delay: 1.5s;
+  }
+
+  .purple_Illustration,
+  .restaurant_menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding-top: 5rem; /* Odstęp od góry strony (np. pod przyciski) */
+  }
+}
+
 @keyframes malina_menu {
   0% {
     opacity: 0;
@@ -582,15 +622,6 @@ img {
     opacity: 1;
     transform: translateY(0); 
   }
-}
-
-
-.restaurant_menu {
-  position: absolute;
-  top: 650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
 }
 
 .illustration10 {
@@ -692,7 +723,6 @@ img {
     width: 90%;   /* mniejsza szerokość, dopasowana do ekranu */
   }
 
-  .restaurant_menu,
   .illustration10,
   .illustration11,
   .illustration4 {
@@ -1393,8 +1423,7 @@ img {
   .illustration28,
   .illustration29,
   .time_book,
-  .zine_book,
-  .restaurant_menu {
+  .zine_book, {
     position: relative !important;
     top: auto !important;
     left: auto !important;
@@ -2030,6 +2059,7 @@ img {
   
 
 }
+
 
 
 

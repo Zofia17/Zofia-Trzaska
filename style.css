@@ -93,6 +93,40 @@ h5{
     letter-spacing: 0.1rem;
   }
 
+  h2 {
+  font-weight: 300;
+  width: 50%;
+  margin: 0; 
+  text-align: center;   
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+  animation-delay: 0.5s; 
+  z-index: 2;  
+  right: 10%;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+@keyframes h2 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    left: 2rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+}
+
   h3 {
     font-size: 1rem;
     letter-spacing: 0.15rem;
@@ -258,40 +292,6 @@ body {
   display: flex;             
   justify-content: center;   
   align-items: center; 
-}
-
-h2 {
-  font-weight: 300;
-  width: 50%;
-  margin: 0; 
-  text-align: center;   
-  opacity: 0; 
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 0.5s; 
-  z-index: 2;  
-  right: 10%;
-  top: 30%;
-  transform: translateY(-50%);
-}
-
-@keyframes h2 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
-@media (max-width: 768px) {
-  h2 {
-    left: 2rem;
-    font-size: 1rem;
-    width: 90%;
-  }
 }
 
 head {
@@ -1900,7 +1900,7 @@ img {
   font-weight: 300;
   width: 40%; /* mniej niż 50% */
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
@@ -1918,7 +1918,7 @@ img {
 
   .h2_about {
     width: 90%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -2007,6 +2007,7 @@ img {
   
 
 }
+
 
 
 

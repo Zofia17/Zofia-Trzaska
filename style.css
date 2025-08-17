@@ -21,7 +21,7 @@ h1{
 
  h2 {
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   width: 50%;
   margin: 0; 
   text-align: center;   
@@ -1901,7 +1901,7 @@ img {
   font-weight: 300;
   width: 40%; /* mniej niż 50% */
   margin: 0;
-  font-size: 1rem;
+  font-size: 1rem !important;
   opacity: 0;
   animation: fadeIn 2s forwards;
   animation-delay: 0.5s;
@@ -2008,6 +2008,7 @@ img {
   
 
 }
+
 
 
 

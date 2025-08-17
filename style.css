@@ -241,7 +241,7 @@ h5{
   }
 }
 
-.body {
+body {
   background-color: #F3F0E9;
   height: 100%;             
   margin: 0;
@@ -250,12 +250,12 @@ h5{
   align-items: center; 
 }
 
-.head {
+head {
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
 
-.a {
+a {
  color:black;
  text-decoration: none;
  font-size: 1.5rem;
@@ -277,7 +277,7 @@ h5{
   z-index: 2;
 }
 
-.svg {
+svg {
   width: 200px;
   height: 200px;
   position: fixed;
@@ -347,7 +347,7 @@ h5{
   overflow: hidden;
 }
 
-.img {
+img {
   width: 1400px;
   height: auto;
   position: relative;
@@ -1994,6 +1994,7 @@ h5{
   }
 }
   
+
 
 
 

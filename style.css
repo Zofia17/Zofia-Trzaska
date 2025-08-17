@@ -499,17 +499,6 @@ img {
   }
 }
 
-@media (max-width: 768px) {
-  .purple_Illustration,
-  .ellie_illustration
-  .brown_dress {
-    top: 30px;
-    left: 20px;
-    width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
-  }
-}
-
-
 .green_dress {
   position: absolute;
   top: 50px;  
@@ -716,37 +705,6 @@ img {
   }
 }
 
-@media (max-width: 768px) {
-  .malina_menu {
-    top: 20px;
-    left: 10px;
-    width: 90%;   /* mniejsza szerokość, dopasowana do ekranu */
-  }
-
-  .illustration10,
-  .illustration11,
-  .illustration4 {
-    top: auto;      /* usuń sztywne top */
-    left: 50%;
-    transform: translateX(-50%);
-    position: relative; /* zmień z absolute na relative dla lepszego flow na mobilkach */
-    margin: 20px auto;  /* marginesy dookoła, wycentrowanie */
-    width: 90%;     /* szerokość dopasowana do ekranu */
-  }
-
-  .il10,
-  .il11,
-  .il4 {
-    position: relative; /* zmiana na relative dla responsywności */
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-  }
-}
-
 .illustration12 {
   position: absolute;
   top: 1650px;  
@@ -879,8 +837,6 @@ img {
   }
 }
 
-
-
 .time_book {
   position: absolute;
   top: 650px;  
@@ -952,8 +908,6 @@ img {
     transform: translateY(0); 
   }
 }
-
-
 
 .illustration9 {
   position: absolute;
@@ -2059,6 +2013,7 @@ img {
   
 
 }
+
 
 
 

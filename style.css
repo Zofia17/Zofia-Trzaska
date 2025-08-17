@@ -21,7 +21,6 @@ h1{
 
  h2 {
   font-weight: 300;
-  font-size: 1rem;
   width: 50%;
   margin: 0; 
   text-align: center;   
@@ -1909,22 +1908,22 @@ img {
 
 @media (max-width: 768px) {
   .about_section {
-    padding-top: 100px; /* mniej przesunięcia */
+    padding-top: 100px; 
   }
 
   .about_content {
-    flex-direction: column; /* układ pionowy */
+    flex-direction: column; 
     text-align: center;
   }
 
   .h2_about {
     width: 90%;
-    font-size: 1rem;
+    font-size: 0.875rem;
     margin-bottom: 1rem;
   }
 
   .about_illustration {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -2008,6 +2007,7 @@ img {
   
 
 }
+
 
 
 

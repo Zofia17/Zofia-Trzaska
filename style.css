@@ -330,6 +330,26 @@ svg {
   top: 0;
 }
 
+@media (max-width: 768px) {
+  .container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 0;
+    width: auto;
+    z-index: 1;
+  }
+
+  svg {
+    width: 120px; /* mniejszy rozmiar sygnatury */
+    height: auto;
+    position: absolute; /* zmieniamy z fixed na absolute */
+    top: 0;
+    left: 0;
+  }
+}
+
+
 .text {
   margin-left: 0; /* lub inna mała wartość */
   margin-top: 0;
@@ -2010,6 +2030,7 @@ img {
   
 
 }
+
 
 
 

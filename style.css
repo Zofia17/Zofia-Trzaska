@@ -323,7 +323,7 @@ a {
   z-index: 2;
 }
 
-svg {
+.svg {
   width: 200px;
   height: 200px;
   position: fixed;
@@ -340,7 +340,7 @@ svg {
     z-index: 1;
   }
 
-  svg {
+  .svg {
     width: 120px; /* mniejszy rozmiar sygnatury */
     height: auto;
     position: absolute; /* zmieniamy z fixed na absolute */
@@ -413,7 +413,7 @@ svg {
   overflow: hidden;
 }
 
-img {
+.img {
   width: 1400px;
   height: auto;
   position: relative;
@@ -475,7 +475,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  .body {
     padding-top: 5rem;
     margin: 0;
   }
@@ -1996,6 +1996,7 @@ img {
   
 
 }
+
 
 
 

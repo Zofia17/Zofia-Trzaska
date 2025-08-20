@@ -444,10 +444,10 @@ img {
 
 .il2 {
   position: absolute;
-  width: 300px;
+  width: 370px;
   height: auto;
-  top: 650px;  
-  left: 50px; 
+  top: 100px;  
+  left: 150px; 
   margin-right: 0;
   margin-bottom: 0;
   transition: opacity 0.3s ease;
@@ -1699,6 +1699,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

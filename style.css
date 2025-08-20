@@ -412,11 +412,7 @@ img {
 /* styl tylko dla ilustracji */
 .illustrations {
   position: relative;
-}
-
-.illustrations img {
   width: 100%;
-  display: block;
 }
 
 /* poprawna wersja dla il1 */
@@ -1710,6 +1706,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

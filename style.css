@@ -409,6 +409,11 @@ img {
   position: relative;
 }
 
+.illustrations img {
+  width: 100%;
+  height: auto;
+}
+
 .Il1 {
   width: 300px;
   top: 90px;
@@ -1698,6 +1703,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

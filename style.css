@@ -409,6 +409,12 @@ img {
   height: auto;
 }
 
+.illustrations {
+  position: relative;
+  width: 100%;
+  height: auto; /* lub inna odpowiednia wysokość */
+}
+
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
   position: absolute;
@@ -442,7 +448,7 @@ img {
   margin-bottom: 0;
 }*/
 
-.il2 {
+.illustrations .il2 {
   position: absolute;
   width: 370px;
   top: 100px;
@@ -465,7 +471,7 @@ img {
   }
 }
 
-.il3 {
+.illustrations .il3 {
   position: absolute;
   width: 370px;
   top: 100px;
@@ -1688,6 +1694,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

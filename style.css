@@ -411,11 +411,11 @@ img {
 
 .Il1 {
   width: 300px;
+  top: 90px;
+  left: 120px;
   margin-right: 0;
   margin-bottom: 0;
   position: absolute;
-  top: 90px;
-  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1698,6 +1698,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -490,7 +490,7 @@ img {
   width: 300px;
   height: auto;
   top: 570px;  
-  left: 50px; 
+  left: 120px; 
   margin-right: 0;
   margin-bottom: 0;
   transition: opacity 0.3s ease;
@@ -1685,6 +1685,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -409,9 +409,8 @@ img {
   position: relative;
 }
 
-.Illustration1 {
-  width: 370px;
-  height: auto;
+.Il1 {
+  width: 300px;
   margin-right: 0;
   margin-bottom: 0;
   position: absolute;
@@ -424,7 +423,7 @@ img {
   animation-delay: 2s; 
 }
 
-@keyframes Illustration1 {
+@keyframes Il1 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1699,6 +1698,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

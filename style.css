@@ -445,9 +445,32 @@ img {
 .il2 {
   position: absolute;
   width: 370px;
+  top: 100px;
+  left: 550px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+  animation-delay: 2s; 
+}
+
+@keyframes il2 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+.il6 {
+  position: absolute;
+  width: 300px;
   height: auto;
-  top: 100px;  
-  left: 150px; 
+  top: 570px;  
+  left: 50px; 
   margin-right: 0;
   margin-bottom: 0;
   transition: opacity 0.3s ease;
@@ -508,37 +531,6 @@ img {
   margin-right: 0;
   margin-bottom: 0;
 }*/
-
-.dior_dress {
-  width: 370px;
-  height: auto;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: absolute;
-  top: 90px;
-  left: 550px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 2s; 
-  top: 200px;
-    left: 50%;
-    transform: translateX(-50%) translateY(20px);
-    width: 80%;
-    max-width: 300px;
-}
-
-@keyframes dior_dress {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
 
 /*
 .illustration10 {
@@ -1699,6 +1691,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

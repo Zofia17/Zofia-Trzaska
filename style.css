@@ -421,7 +421,7 @@ img {
 
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
-  width: 300px;
+  width: 300px !important;
   position: absolute;
   top: 90px;
   left: 120px;
@@ -1707,6 +1707,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

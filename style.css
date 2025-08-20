@@ -409,18 +409,12 @@ img {
   height: auto;
 }
 
-/* styl tylko dla ilustracji */
-.illustrations {
-  position: relative;
-  width: 100%;
-}
-
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
   position: absolute;
-  width: 300px !important;
-  top: 90px !important;
-  left: 120px !important;
+  width: 300px;
+  top: 90px;
+  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1705,6 +1699,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

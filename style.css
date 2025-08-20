@@ -408,24 +408,25 @@ img {
   height: auto;
 }
 
+.illustrations {
+  position: relative;
+}
+
 .illustrations img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-.il1 {
+.illustrations .il1 {
   width: 300px;
+  position: absolute;
   top: 90px;
   left: 120px;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: absolute;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
   animation: fadeIn 2s forwards; 
-  animation-delay: 2s; 
+  animation-delay: 2s;
 }
 
 @keyframes il1 {
@@ -1703,6 +1704,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

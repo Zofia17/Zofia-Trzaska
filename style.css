@@ -421,7 +421,7 @@ img {
 
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
-  width: 300px !important;
+  width: 300px;
   position: absolute;
   top: 90px;
   left: 120px;
@@ -430,6 +430,7 @@ img {
   transform: translateY(20px); 
   animation: fadeIn 2s forwards; 
   animation-delay: 2s;
+  z-index: 1;
 }
 
 @keyframes il1 {
@@ -1707,6 +1708,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -485,7 +485,7 @@ img {
   }
 }
 
-.il6 {
+.illustrations .il4 {
   position: absolute;
   width: 300px;
   height: auto;
@@ -498,6 +498,30 @@ img {
   transform: translateY(20px); 
   animation: fadeIn 2s forwards; 
   animation-delay: 3s; 
+}
+
+.illustrations .il5 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 570px;
+  left: 250px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px); 
+  animation: sculpture 2s forwards; 
+  animation-delay: 3s; 
+}
+
+@keyframes il5 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
 }
 
 /*
@@ -765,30 +789,6 @@ img {
   margin-right: 0;
   margin-bottom: 0;
 }*/
-
-.sculpture {
-  position: absolute;
-  width: 300px;
-  height: auto;
-  top: 30px;
-  left: 430px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: sculpture 2s forwards; 
-  animation-delay: 3s; 
-}
-
-@keyframes sculpture {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
 
 /*
 .zine_book {
@@ -1685,6 +1685,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -1576,6 +1576,27 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* wyśrodkuj obrazki w poziomie */
+    gap: 20px; /* odstęp między ilustracjami */
+    padding: 20px; /* odstęp od krawędzi ekranu */
+  }
+
+  .illustrations img {
+    width: 90%; /* każda ilustracja będzie miała 90% szerokości ekranu */
+    height: auto;
+    position: static; /* usuwa pozycjonowanie absolutne */
+    margin: 0 auto;
+    animation: none; /* opcjonalnie: wyłącz animacje na telefonie */
+    opacity: 1;       /* pokaż ilustracje od razu */
+    transform: none;
+  }
+}
+
+  /*
   @media (max-width: 768px) {
   /* Kontenery ilustracji */
   .illustration12,
@@ -1596,7 +1617,7 @@ img {
   .illustration28,
   .illustration29,
   .time_book,
-  .zine_book, {
+  .zine_book, { /*
     position: relative !important;
     top: auto !important;
     left: auto !important;
@@ -1604,7 +1625,7 @@ img {
     width: 90% !important;
     max-width: 350px;
     transform: none !important;
-  }
+  }*/
 
   /* Same ilustracje */
   .il12,
@@ -1629,7 +1650,7 @@ img {
   .il9,
   .il10,
   .il11,
-  .il4 {
+  .il4 {/*
     position: relative !important;
     top: auto !important;
     left: auto !important;
@@ -1639,26 +1660,10 @@ img {
     transform: none !important;
     margin: 10px auto !important;
   }
-}
+} */
 
 @media (max-width: 768px) {
-  .versace, .green_dior {
-    width: 100%;
-    position: relative; /* Zamiast absolute dla lepszego układu */
-    transform: none;
-    animation: none; /* Możesz wyłączyć animacje na mniejszych ekranach */
-    opacity: 1;
-  }
-  
-  .v1, .v2, .v3, .d2, .d3, .d4, .s1, .s2, .s3, .restaurant {
-    width: 100%;
-    position: relative;
-    top: auto;
-    transform: none;
-    opacity: 1;
-    animation: none;
-  }
-  
+   
   .header, .description, .content {
     position: relative;
     left: auto;
@@ -1669,11 +1674,6 @@ img {
     animation: none;
   }
   
-  /* Dodatkowe dostosowania paddingów, marginesów, itp. */
-  .purple_page, .dior_page, .saab_page, .malina_page, .timebook_page {
-    padding: 10px;
-    font-size: 16px;
-  }
 }
 
 /* Dla bardzo małych ekranów (np. smartfony) */
@@ -1699,6 +1699,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

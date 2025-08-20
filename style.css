@@ -421,8 +421,8 @@ img {
 
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
-  width: 300px;
   position: absolute;
+  width: 300px;
   top: 90px;
   left: 120px;
   transition: opacity 0.3s ease;
@@ -1708,6 +1708,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

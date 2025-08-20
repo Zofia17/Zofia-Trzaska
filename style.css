@@ -403,15 +403,15 @@ svg {
   overflow: hidden;
 }
 
-.illustrations img {
-  width: 100%;
+img {
+  max-width: 100%;
   height: auto;
 }
 
-img {
-  width: 1400px;
+.illustrations img {
+  width: 100%;
   height: auto;
-  position: relative;
+  display: block;
 }
 
 .Il1 {
@@ -1703,6 +1703,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

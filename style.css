@@ -418,7 +418,7 @@ img {
 /* poprawna wersja dla il1 */
 .illustrations .il1 {
   position: absolute;
-  width: 370px;
+  width: 400px;
   top: 100px;
   left: 120px;
   transition: opacity 0.3s ease;
@@ -439,18 +439,9 @@ img {
   }
 }
 
-/*
-.purple_Illustration {
-  position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .illustrations .il2 {
   position: absolute;
-  width: 370px;
+  width: 400px;
   top: 100px;
   left: 550px;
   transition: opacity 0.3s ease;
@@ -473,7 +464,7 @@ img {
 
 .illustrations .il3 {
   position: absolute;
-  width: 370px;
+  width: 400px;
   top: 100px;
   left: 980px;
   transition: opacity 0.3s ease;
@@ -1694,6 +1685,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

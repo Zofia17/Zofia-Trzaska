@@ -465,6 +465,29 @@ img {
   }
 }
 
+.il3 {
+  position: absolute;
+  width: 370px;
+  top: 100px;
+  left: 980px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+  animation-delay: 2s; 
+}
+
+@keyframes il3 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
 .il6 {
   position: absolute;
   width: 300px;
@@ -488,40 +511,14 @@ img {
   margin-right: 0;
   margin-bottom: 0;
 } */
-
+/*
 .brown_dress {
   position: absolute;
   top: 50px;  
   left: 50px; 
   margin-right: 0;
   margin-bottom: 0;
-}
-
-.ellie_illustration {
-  width: 370px;
-  height: auto;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: absolute;
-  top: 90px;
-  left: 980px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 2s; 
-}
-
-@keyframes ellie_illustration {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
+}*/
 
 /*
 .green_dress {
@@ -1691,6 +1688,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

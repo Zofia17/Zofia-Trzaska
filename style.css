@@ -403,11 +403,13 @@ svg {
   overflow: hidden;
 }
 
+/* globalny styl */
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* styl tylko dla ilustracji */
 .illustrations {
   position: relative;
 }
@@ -417,6 +419,7 @@ img {
   display: block;
 }
 
+/* poprawna wersja dla il1 */
 .illustrations .il1 {
   width: 300px;
   position: absolute;
@@ -1704,6 +1707,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

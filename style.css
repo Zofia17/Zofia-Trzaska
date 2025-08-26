@@ -121,14 +121,24 @@ h5{
 }
 
 .contact-container {
- display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center;  /* wyśrodkowanie poziome */
-  justify-content: flex-start; /* ustawienie elementów u góry */
-  padding-top: 25rem; /* odstęp od góry okna */
-  padding-bottom: 2rem;
-  height: 100vh; /* wysokość na cały ekran */
+  align-items: center;         /* wyśrodkowanie poziome */
+  justify-content: center;     /* wyśrodkowanie pionowe */
+  height: 100vh;               /* pełna wysokość okna */
   text-align: center;
+  padding: 0; 
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .instagram.link {
@@ -1399,6 +1409,12 @@ svg {
 }
 
 @media (max-width: 768px) {
+  .contact-container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
   .instagram.link {
     font-size: 0.9rem;
     bottom: 0.5rem;
@@ -1608,6 +1624,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

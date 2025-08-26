@@ -580,7 +580,7 @@ svg {
 .il8 {
   position: absolute;
   width: 400px;
-  top: 550px;
+  top: 650px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -603,7 +603,7 @@ svg {
 .il9 {
   position: absolute;
   width: 400px;
-  top: 550px;
+  top: 650px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -626,7 +626,7 @@ svg {
 .il10 {
   position: absolute;
   width: 400px;
-  top: 550px;
+  top: 650px;
   left: 980px;
   opacity: 0;                   /* start - niewidoczny */
   transform: translateY(20px);  /* start - przesunięty w dół */
@@ -1645,6 +1645,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

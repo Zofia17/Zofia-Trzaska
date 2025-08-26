@@ -120,53 +120,83 @@ h5{
   margin-left: -17rem;
 }
 
-.contact-container {
+.contact-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;         /* wyśrodkowanie poziome */
-  justify-content: center;     /* wyśrodkowanie pionowe */
-  height: 100vh;               /* pełna wysokość okna */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100vh;
+  padding: 2rem;
+  flex-wrap: wrap; /* aby działało na telefonie */
   text-align: center;
-  padding: 0; 
 }
 
-.fade-in {
+/* Styl ilustracji */
+.contact-image {
+  width: 20%;
+  max-width: 200px;
+  height: auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+/* Kontener tekstowy (środek) */
+.contact-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Styl tekstu głównego */
+.contact-container h1,
+.contact-container h3 {
+  margin: 0.5rem 0;
+}
+
+/* Instagram link */
+.instagram.link {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+/* Email i social media sekcja */
+.email-box {
+  margin-top: 1.5rem;
+}
+
+.email-box h4,
+.email-box h5 {
+  margin: 0.25rem 0;
+}
+
+/* Animacje */
+.fade-in, .fade-in2, .fade-in3 {
   opacity: 0;
   animation: fadeIn 2s forwards;
 }
 
+.fade-in2 {
+  animation-delay: 1.5s;
+}
+
+.fade-in3 {
+  animation-delay: 2s;
+}
+
 @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
-
-.instagram.link {
-  font-family: "Playfair Display", serif;
-  font-size: 1rem; /* zamiast 15px */
-  position: fixed;
-  top: 1rem;       /* ustaw odległość od góry */
-  left: 46rem;       /* ustaw odległość od lewej */
-  font-weight: 300;
-  letter-spacing: 0.1rem;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: instagramlink 2s forwards;
-  animation-delay: 1.5s;
-  z-index: 1000;
-}
-
-@keyframes instagramlink {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
 .fade-in {
   opacity: 0; 
   transform: translateY(20px); 
@@ -1294,6 +1324,7 @@ svg {
   animation-delay: 1,5s; 
 }
 
+/*
 .contact_page {
   overflow: hidden;
 }
@@ -1307,8 +1338,9 @@ svg {
     opacity: 1;
     transform: translateY(0); 
   }
-}
+}*/
 
+/*
 .contact_page1 {
   position: absolute;
   width: 13%; 
@@ -1335,7 +1367,7 @@ svg {
   animation: fadeIn 2s forwards; 
   animation-delay: 1s;  
   z-index: 1; 
-}
+}*/
 
 @keyframes h2 {
   0% {
@@ -1353,7 +1385,31 @@ svg {
     position: relative;   /* zamiast fixed, by uniknąć problemów z przewijaniem */
     overflow: visible;
   }
-  
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .contact-image {
+    width: 50%;
+    max-width: 250px;
+  }
+
+  .left {
+    order: 1;
+  }
+
+  .contact-content {
+    order: 2;
+  }
+
+  .right {
+    order: 3;
+  }
+}
 
 @media (max-width: 768px) {
   h4 {
@@ -1385,6 +1441,7 @@ svg {
   }
 }
 
+/*
 @media (max-width: 768px) {
   .contact-container {
     padding: 1rem;
@@ -1397,7 +1454,7 @@ svg {
     bottom: 0.5rem;
     left: 0.5rem;
   }
-}
+}*/
 
 @media (max-width: 768px) {
   .menu {
@@ -1601,6 +1658,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -306,6 +306,18 @@ body {
   align-items: center; 
 }
 
+/* globalny styl */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.illustrations {
+  position: relative;
+  width: 100%;
+  height: auto; /* lub inna odpowiednia wysokość */
+}
+
 head {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -401,18 +413,6 @@ svg {
 
 .about_page {
   overflow: hidden;
-}
-
-/* globalny styl */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.illustrations {
-  position: relative;
-  width: 100%;
-  height: auto; /* lub inna odpowiednia wysokość */
 }
 
 /* poprawna wersja dla il1 */
@@ -1645,6 +1645,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

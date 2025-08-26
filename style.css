@@ -639,7 +639,7 @@ svg {
   position: absolute;
   width: 300px;
   height: auto;
-  top: 30px;
+  top: 1280px;
   left: 740px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -673,7 +673,7 @@ svg {
   position: absolute;
   width: 300px;
   height: auto;
-  top: 30px;
+  top: 1280px;
   left: 430px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -707,7 +707,7 @@ svg {
   position: absolute;
   width: 300px;
   height: auto;
-  top: 30px;
+  top: 1280px;
   left: 1050px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -741,7 +741,7 @@ svg {
   position: absolute;
   width: 300px;
   height: auto;
-  top: 30px;
+  top: 1280px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1610,6 +1610,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

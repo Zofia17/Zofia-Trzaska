@@ -541,7 +541,6 @@ svg {
   }
 }
 
-/*
 .il8 {
   position: absolute;
   width: 400px;
@@ -586,8 +585,8 @@ svg {
     opacity: 1;
     transform: translateY(0); 
   }
-}*/
-/*
+}
+
 .il10 {
   position: absolute;
   width: 400px;
@@ -608,8 +607,7 @@ svg {
   100% {
     opacity: 1;
     transform: translateY(0); 
-  } */
-
+  } 
 
 .il11 {
   position: absolute;
@@ -1610,6 +1608,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

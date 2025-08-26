@@ -1348,35 +1348,12 @@ svg {
   }
 }
   
-  .contact_page1 {
-    width: 40%;
-    top: 20px;
-    margin-left: 0;
-    position: relative;
-    opacity: 1;
-    transform: none;
-    animation: none;
-    z-index: 1;
-  }
 
   .homepage-body {
     position: relative;   /* zamiast fixed, by uniknąć problemów z przewijaniem */
     overflow: visible;
   }
   
-  .contact_page1 {
-    width: 80%;
-    margin-left: 0;
-    top: 10px;
-  }
-
-   .contact_page2 {
-    width: 80%;
-    margin-left: 0;
-    top: 10px;
-  }
- 
-}
 
 @media (max-width: 768px) {
   h4 {
@@ -1624,6 +1601,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

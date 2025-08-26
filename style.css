@@ -419,7 +419,7 @@ img {
 .illustrations .il1 {
   position: absolute;
   width: 400px;
-  top: 100px;
+  top: 50px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -442,7 +442,7 @@ img {
 .illustrations .il2 {
   position: absolute;
   width: 400px;
-  top: 100px;
+  top: 50px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -465,7 +465,7 @@ img {
 .illustrations .il3 {
   position: absolute;
   width: 400px;
-  top: 100px;
+  top: 50px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -488,11 +488,8 @@ img {
 .illustrations .il4 {
   position: absolute;
   width: 300px;
-  height: auto;
-  top: 570px;  
+  top: 200px;  
   left: 120px; 
-  margin-right: 0;
-  margin-bottom: 0;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -500,11 +497,21 @@ img {
   animation-delay: 3s; 
 }
 
+@keyframes il4 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
 .illustrations .il5 {
   position: absolute;
   width: 300px;
-  height: auto;
-  top: 570px;
+  top: 200px;
   left: 250px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -523,41 +530,6 @@ img {
     transform: translateY(0); 
   }
 }
-
-/*
-.restaurant_menu {
-  position: absolute;
-  top: 650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-} */
-/*
-.brown_dress {
-  position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
-/*
-.green_dress {
-  position: absolute;
-  top: 50px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
-/*
-.illustration10 {
-  position: absolute;
-  top: 650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
 
 .il10 {
   position: absolute;
@@ -1685,6 +1657,7 @@ img {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

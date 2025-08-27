@@ -117,12 +117,6 @@ h5{
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: -2rem; /* dopasuj według potrzeby */
-  margin-left: -17rem;
-}
-
-.email-box {
-  margin-top: 1.5rem;
 }
 
 .email-box h4,
@@ -1676,6 +1670,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

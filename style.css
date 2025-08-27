@@ -141,7 +141,8 @@ h5{
   gap: 1rem;
   text-decoration: none;
   color: inherit;
-  font-weight: bold;
+  font-size: 0.9rem;        /* lub np. 14px */
+  font-weight: normal; 
   animation: fadeIn 2s forwards;
   animation-delay: 2s;
 }
@@ -1672,6 +1673,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

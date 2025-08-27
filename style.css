@@ -131,15 +131,10 @@ h5{
   text-align: center;
 }
 
-/* Styl ilustracji */
-.contact-image {
-  width: 20%;
-  max-width: 200px;
-  height: auto;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 2s forwards;
-  animation-delay: 1s;
+/* Styl tekstu głównego */
+.contact-container h1,
+.contact-container h3 {
+  margin: 0.5rem 0;
 }
 
 /* Kontener tekstowy (środek) */
@@ -153,10 +148,15 @@ h5{
   text-align: center;
 }
 
-/* Styl tekstu głównego */
-.contact-container h1,
-.contact-container h3 {
-  margin: 0.5rem 0;
+/* Styl ilustracji */
+.contact-image {
+  width: 20%;
+  max-width: 200px;
+  height: auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
 }
 
 /* Instagram link */
@@ -1663,6 +1663,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -142,6 +142,8 @@ h5{
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+  animation: fadeIn 2s forwards;
+  animation-delay: 2s;
 }
 
 /* Styl tekstu głównego */
@@ -1670,6 +1672,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

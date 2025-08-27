@@ -131,6 +131,15 @@ h5{
   text-align: center;
 }
 
+/* Instagram link */
+.instagram.link {
+  display: inline-block;
+  margin-top: 8rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
 /* Styl tekstu głównego */
 .contact-container h1,
 .contact-container h3 {
@@ -169,15 +178,6 @@ h5{
   animation: fadeIn 2s forwards;
   animation-delay: 1s;
   margin-right: 300px;
-}
-
-/* Instagram link */
-.instagram.link {
-  display: inline-block;
-  margin-top: 8rem;
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
 }
 
 /* Email i social media sekcja */
@@ -1675,6 +1675,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

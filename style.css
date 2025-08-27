@@ -168,7 +168,7 @@ h5{
 }
 
 .contact_page2 {
-  width: 60%;           /* lub np. 400px */
+  width: 20%;           /* lub np. 400px */
   max-width: 400px;     /* zwiększ maksymalną szerokość */
   height: auto;
   opacity: 0;
@@ -1676,6 +1676,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

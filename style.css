@@ -174,7 +174,7 @@ h5{
 /* Instagram link */
 .instagram.link {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 5rem;
   text-decoration: none;
   color: inherit;
   font-weight: bold;
@@ -1675,6 +1675,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -157,6 +157,17 @@ h5{
   text-align: center;
 }
 
+.contact_page2 {
+  width: 40%;
+  max-width: 200px;
+  height: auto;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+  margin-right: 300px;
+}
+
 /* Styl ilustracji */
 .contact-image {
   width: 20%;
@@ -167,17 +178,6 @@ h5{
   animation: fadeIn 2s forwards;
   animation-delay: 1s;
   margin-left: 300px;
-}
-
-.contact_page2 {
-  width: 40%;
-  max-width: 200px;
-  height: auto;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 2s forwards;
-  animation-delay: 1s;
-  margin-right: 300px;
 }
 
 /* Email i social media sekcja */
@@ -1675,6 +1675,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

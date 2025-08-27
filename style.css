@@ -110,6 +110,26 @@ h5{
   margin-bottom: 0.2rem; /* mniejszy odstęp pod napisem "Mail" */
 }
 
+/* Email i social media sekcja */
+.email-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -2rem; /* dopasuj według potrzeby */
+  margin-left: -17rem;
+}
+
+.email-box {
+  margin-top: 1.5rem;
+}
+
+.email-box h4,
+.email-box h5 {
+  margin: 0.25rem 0;
+}
+
 .contact-wrapper {
   display: flex;
   align-items: center;
@@ -170,26 +190,6 @@ h5{
   margin-left: 300px;
 }
 
-/* Email i social media sekcja */
-
-.email-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: -2rem; /* dopasuj według potrzeby */
-  margin-left: -17rem;
-}
-
-.email-box {
-  margin-top: 1.5rem;
-}
-
-.email-box h4,
-.email-box h5 {
-  margin: 0.25rem 0;
-}
 
 /* Animacje */
 .fade-in, .fade-in2, .fade-in3 {
@@ -1676,6 +1676,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

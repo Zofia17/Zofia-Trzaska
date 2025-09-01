@@ -536,7 +536,7 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: sculpture 2s forwards; 
+  animation: fadeIn 2s forwards; 
   animation-delay: 3s; 
 }
 
@@ -559,7 +559,7 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: zine 2s forwards; 
+  animation: fadeIn 2s forwards;
   animation-delay: 3s; 
 }
 
@@ -1496,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -665,6 +665,7 @@ svg {
     transform: translateY(0); 
   } 
 
+  /*
 .il11 {
   position: absolute;
   width: 370px;
@@ -676,7 +677,7 @@ svg {
   transform: translateY(20px); 
   animation: il11 2s forwards;   /* nazwa animacji = il11 */
   animation-delay: 4s;           /* animacja startuje po 4 sekundach */
-}
+}*/
 
 @keyframes il11 {
   0% {
@@ -692,9 +693,8 @@ svg {
 .il12 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 1280px;
-  left: 740px;
+  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -714,21 +714,11 @@ svg {
   }
 }
 
-/*
-.illustration13 {
-  position: absolute;
-  top: 1650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il13 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 1280px;
-  left: 430px;
+  left: 250px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -748,21 +738,11 @@ svg {
   }
 }
 
-/*
-.illustration14 {
-  position: absolute;
-  top: 1650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il14 { 
   position: absolute;
   width: 300px;
-  height: auto;
   top: 1280px;
-  left: 1050px;
+  left: 740px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -782,21 +762,11 @@ svg {
   }
 }
 
-/*
-.illustration15 {
-  position: absolute;
-  top: 1650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il15 { 
   position: absolute;
   width: 300px;
-  height: auto;
   top: 1280px;
-  left: 120px;
+  left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -815,34 +785,6 @@ svg {
     transform: translateY(0); 
   }
 }
-
-/*
-.time_book {
-  position: absolute;
-  top: 650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
-/*
-.zine_book {
-  position: absolute;
-  top: 650px;  
-  left: 50px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
-
-/*
-.illustration16 {
- position: absolute;
-  top: 650px;  
-  left: 480px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
 
 .il16 {
   position: absolute;
@@ -1674,6 +1616,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

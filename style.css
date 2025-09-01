@@ -673,12 +673,12 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il12 2s forwards; 
+  animation: fadeIl12 2s forwards; 
   animation-delay: 5s; 
 }
 
 
-@keyframes il12 {
+@keyframes fadeIl12 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -697,12 +697,12 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il13 2s forwards; 
+  animation: fadeIl13 2s forwards;
   animation-delay: 5s; 
 }
 
 
-@keyframes il13{
+@keyframes fadeIl13 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -721,12 +721,12 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il14 2s forwards; 
+  animation: fadeIl14 2s forwards; 
   animation-delay: 5s; 
 }
 
 
-@keyframes il14{
+@keyframes fadeIl14 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -745,12 +745,12 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il15 2s forwards; 
+  animation: fadeIl15 2s forwards; 
   animation-delay: 5s; 
 }
 
 
-@keyframes il15{
+@keyframes fadeIl15 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -769,11 +769,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il16 2s forwards; 
+  animation: fadeIl16 2s forwards; 
   animation-delay: 6s; 
 }
 
-@keyframes il16 {
+@keyframes fadeIl16 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -792,11 +792,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il17 2s forwards; 
+  animation: fadeIl17 2s forwards; 
   animation-delay: 6s; 
 }
 
-@keyframes il17 {
+@keyframes fadeIl17 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -815,11 +815,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il18 2s forwards; 
+  animation: fadeIl18 2s forwards; 
   animation-delay: 6s; 
 }
 
-@keyframes il18 {
+@keyframes fadeIl18 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -838,11 +838,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il19 2s forwards; 
+  animation: fadeIl19 2s forwards; 
   animation-delay: 7s; 
 }
 
-@keyframes il19 {
+@keyframes fadeIl19 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -861,11 +861,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il20 2s forwards; 
+  animation: fadeIl20 2s forwards; 
   animation-delay: 7s; 
 }
 
-@keyframes il20 {
+@keyframes fadeIl20 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -884,11 +884,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il21 2s forwards; 
+  animation: fadeIl21 2s forwards; 
   animation-delay: 7s; 
 }
 
-@keyframes il21 {
+@keyframes fadeIl21 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -907,11 +907,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il22 2s forwards; 
+  animation: fadeIl22 2s forwards; 
   animation-delay: 8s; 
 }
 
-@keyframes il22 {
+@keyframes fadeIl22 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -930,11 +930,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il23 2s forwards; 
+  animation: fadeIl23 2s forwards; 
   animation-delay: 8s; 
 }
 
-@keyframes il23 {
+@keyframes fadeIl23 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -953,11 +953,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il24 2s forwards; 
+  animation: fadeIl24 2s forwards; 
   animation-delay: 8s; 
 }
 
-@keyframes il24 {
+@keyframes fadeIl24 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -976,11 +976,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il25 2s forwards; 
+  animation: fadeIl25 2s forwards; 
   animation-delay: 8s; 
 }
 
-@keyframes il25 {
+@keyframes fadeIl25 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -999,11 +999,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il26 2s forwards; 
+  animation: fadeIl26 2s forwards; 
   animation-delay: 9s; 
 }
 
-@keyframes il26 {
+@keyframes fadeIl26 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1022,11 +1022,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il29 2s forwards; 
+  animation: fadeIl29 2s forwards; 
   animation-delay: 9s; 
 }
 
-@keyframes il29 {
+@keyframes fadeIl29 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1045,11 +1045,11 @@ svg {
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
-  animation: il28 2s forwards; 
+  animation: fadeIl28 2s forwards; 
   animation-delay: 9s; 
 }
 
-@keyframes il28 {
+@keyframes fadeIl28 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1470,6 +1470,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

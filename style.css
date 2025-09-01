@@ -531,7 +531,7 @@ svg {
 .il5 {
   position: absolute;
   width: 300px;
-  top: 635px;
+  top: 630px;
   left: 440px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -555,7 +555,7 @@ svg {
   position: absolute;
   width: 300px;
   top: 630px;
-  left: 770px;
+  left: 760px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -600,7 +600,7 @@ svg {
 .il8 {
   position: absolute;
   width: 400px;
-  top: 1070px;
+  top: 1080px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -623,7 +623,7 @@ svg {
 .il9 {
   position: absolute;
   width: 400px;
-  top: 1070px;
+  top: 1080px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -646,7 +646,7 @@ svg {
 .il10 {
   position: absolute;
   width: 400px;
-  top: 1070px;
+  top: 1080px;
   left: 980px;
   opacity: 0;                   /* start - niewidoczny */
   transform: translateY(20px);  /* start - przesunięty w dół */
@@ -1496,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

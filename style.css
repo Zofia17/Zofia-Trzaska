@@ -335,7 +335,7 @@ img {
 .illustrations {
   position: relative;
   width: 100%;
-  height: auto; /* lub inna odpowiednia wysokość */
+  min-height: 500px;
 }
 
 head {
@@ -1496,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

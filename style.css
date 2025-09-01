@@ -834,7 +834,7 @@ svg {
 .il19 {
   position: absolute;
   width: 400px;
-  top: 2720px;
+  top: 3300px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -857,7 +857,7 @@ svg {
 .il20 {
   position: absolute;
   width: 400px;
-  top: 2720px;
+  top: 3300px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -880,7 +880,7 @@ svg {
 .il21 {
   position: absolute;
   width: 400px;
-  top: 2720px;
+  top: 3300px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -903,7 +903,7 @@ svg {
 .il22 {
   position: absolute;
   width: 400px;
-  top: 2580px;
+  top: 3880px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -926,7 +926,7 @@ svg {
 .il23 {
   position: absolute;
   width: 400px;
-  top: 2580px;
+  top: 3880px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -949,7 +949,7 @@ svg {
 .il24 {
   position: absolute;
   width: 400px;
-  top: 2580px;
+  top: 3880px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -972,7 +972,7 @@ svg {
 .il25 {
   position: absolute;
   width: 300px;
-  top: 3120px;
+  top: 4460px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -995,8 +995,8 @@ svg {
 .il26 {
   position: absolute;
   width: 300px;
-  top: 3120px;
-  left: 250px;
+  top: 4460px;
+  left: 440px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1018,8 +1018,8 @@ svg {
 .il29 {
   position: absolute;
   width: 300px;
-  top: 3120px;
-  left: 740px;
+  top: 4460px;
+  left: 760px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1041,7 +1041,7 @@ svg {
 .il28 {
   position: absolute;
   width: 300px;
-  top: 3120px;
+  top: 4460px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1309,6 +1309,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

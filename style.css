@@ -765,7 +765,7 @@ svg {
 .il16 {
   position: absolute;
   width: 400px;
-  top: 1860px;
+  top: 2140px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -788,7 +788,7 @@ svg {
 .il17 {
   position: absolute;
   width: 400px;
-  top: 1860px;
+  top: 2140px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -811,7 +811,7 @@ svg {
 .il18 {
   position: absolute;
   width: 400px;
-  top: 1480px;
+  top: 2140px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1084,7 +1084,7 @@ svg {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    object-position: right center; /* zmień wg potrzeb */
+    object-position: center; /* zmień wg potrzeb */
   }
 }
 
@@ -1420,6 +1420,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

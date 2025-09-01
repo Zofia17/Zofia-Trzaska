@@ -665,35 +665,10 @@ svg {
     transform: translateY(0); 
   } 
 
-  /*
-.il11 {
-  position: absolute;
-  width: 370px;
-  height: auto;
-  top: 480px;
-  left: 120px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: il11 2s forwards;   /* nazwa animacji = il11 */
-  animation-delay: 4s;           /* animacja startuje po 4 sekundach */
-}*/
-
-@keyframes il11 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
 .il12 {
   position: absolute;
   width: 300px;
-  top: 1280px;
+  top: 1660px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -717,8 +692,8 @@ svg {
 .il13 {
   position: absolute;
   width: 300px;
-  top: 1280px;
-  left: 250px;
+  top: 1660px;
+  left: 440px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -741,8 +716,8 @@ svg {
 .il14 { 
   position: absolute;
   width: 300px;
-  top: 1280px;
-  left: 740px;
+  top: 1660px;
+  left: 770px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -765,8 +740,8 @@ svg {
 .il15 { 
   position: absolute;
   width: 300px;
-  top: 1280px;
-  left: 980px;
+  top: 1660px;
+  left: 1080px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1496,6 +1471,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -436,10 +436,10 @@ svg {
 }
 
 /* poprawna wersja dla il1 */
-.illustrations .il1 {
+ .il1 {
   position: absolute;
   width: 400px;
-  top: 50px;
+  top: 150px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -459,10 +459,10 @@ svg {
   }
 }
 
-.illustrations .il2 {
+.il2 {
   position: absolute;
   width: 400px;
-  top: 50px;
+  top: 150px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -482,10 +482,10 @@ svg {
   }
 }
 
-.illustrations .il3 {
+ .il3 {
   position: absolute;
   width: 400px;
-  top: 50px;
+  top: 150px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1496,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

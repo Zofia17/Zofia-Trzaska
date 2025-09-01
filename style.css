@@ -664,6 +664,7 @@ svg {
     opacity: 1;
     transform: translateY(0); 
   } 
+}
 
 .il12 {
   position: absolute;
@@ -1419,6 +1420,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

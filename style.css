@@ -439,7 +439,7 @@ svg {
  .il1 {
   position: absolute;
   width: 400px;
-  top: 150px;
+  top: 100px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -462,7 +462,7 @@ svg {
 .il2 {
   position: absolute;
   width: 400px;
-  top: 150px;
+  top: 100px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -485,7 +485,7 @@ svg {
  .il3 {
   position: absolute;
   width: 400px;
-  top: 150px;
+  top: 100px;
   left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1496,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

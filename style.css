@@ -1067,7 +1067,7 @@ svg {
   animation-delay: 3s; 
 }
 
-@keyframes fade-in4 {
+@keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1135,51 +1135,6 @@ svg {
   animation: fadeIn 2s forwards; 
   animation-delay: 1,5s; 
 }
-
-/*
-.contact_page {
-  overflow: hidden;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}*/
-
-/*
-.contact_page1 {
-  position: absolute;
-  width: 13%; 
-  height: auto; 
-  top: 50px;
-  margin-left: 750px;
-  z-index: -1; 
-  opacity: 0; 
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 1s;  
-  z-index: 1;         
-}
-
-.contact_page2 {
- position: absolute;
-  width: 21%; 
-  height: auto; 
-  top: 50px;
-  margin-left:-750px;
-  z-index: -1; 
-  opacity: 0; 
-  transform: translateY(20px); 
-  animation: fadeIn 2s forwards; 
-  animation-delay: 1s;  
-  z-index: 1; 
-}*/
 
 @keyframes h2 {
   0% {
@@ -1252,21 +1207,6 @@ svg {
     padding-bottom: 2rem;
   }
 }
-
-/*
-@media (max-width: 768px) {
-  .contact-container {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .instagram.link {
-    font-size: 0.9rem;
-    bottom: 0.5rem;
-    left: 0.5rem;
-  }
-}*/
 
 @media (max-width: 768px) {
   .menu {
@@ -1470,6 +1410,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -740,7 +740,7 @@ svg {
 .il15 { 
   position: absolute;
   width: 300px;
-  top: 1660px;
+  top: 2140px;
   left: 1080px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -764,7 +764,7 @@ svg {
 .il16 {
   position: absolute;
   width: 400px;
-  top: 1480px;
+  top: 2140px;
   left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -787,8 +787,7 @@ svg {
 .il17 {
   position: absolute;
   width: 400px;
-  height: auto;
-  top: 1480px;
+  top: 2140px;
   left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -1471,6 +1470,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

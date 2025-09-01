@@ -788,8 +788,7 @@ svg {
 
 .il16 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 1480px;
   left: 120px;
   transition: opacity 0.3s ease;
@@ -810,18 +809,9 @@ svg {
   }
 }
 
-/*
-.illustration17 {
- position: absolute;
-  top: 650px;  
-  left: 480px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il17 {
   position: absolute;
-  width: 370px;
+  width: 400px;
   height: auto;
   top: 1480px;
   left: 550px;
@@ -843,21 +833,11 @@ svg {
   }
 }
 
-/*
-.illustration18 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il18 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 1480px;
-  left: 550px;
+  left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -876,21 +856,11 @@ svg {
   }
 }
 
-/*
-.illustration19 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il19 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2030px;
-  left: 550px;
+  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -909,21 +879,11 @@ svg {
   }
 }
 
-/*
-.illustration20 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il20 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2030px;
-  left: 980px;
+  left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -942,21 +902,11 @@ svg {
   }
 }
 
-/*
-.illustration21 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il21 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2030px;
-  left: 1410px;
+  left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -975,21 +925,11 @@ svg {
   }
 }
 
-/*
-.illustration22 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il22 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2580px;
-  left: 1410px;
+  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1008,21 +948,11 @@ svg {
   }
 }
 
-/*
-.illustration23 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il23 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2580px;
-  left: 980px;
+  left: 550px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1041,21 +971,11 @@ svg {
   }
 }
 
-/*
-.illustration24 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il24 {
   position: absolute;
-  width: 370px;
-  height: auto;
+  width: 400px;
   top: 2580px;
-  left: 550px;
+  left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1074,21 +994,11 @@ svg {
   }
 }
 
-/*
-.illustration25 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il25 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 3120px;
-  left: 550px;
+  left: 120px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1107,21 +1017,11 @@ svg {
   }
 }
 
-/*
-.illustration26 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il26 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 3120px;
-  left: 860px;
+  left: 250px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1140,21 +1040,11 @@ svg {
   }
 }
 
-/*
-.illustration29 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il29 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 3120px;
-  left: 1170px;
+  left: 740px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1173,21 +1063,11 @@ svg {
   }
 }
 
-/*
-.illustration28 {
- position: absolute;
-  top: 650px;  
-  left:-380px; 
-  margin-right: 0;
-  margin-bottom: 0;
-}*/
-
 .il28 {
   position: absolute;
   width: 300px;
-  height: auto;
   top: 3120px;
-  left: 1480px;
+  left: 980px;
   transition: opacity 0.3s ease;
   opacity: 0;
   transform: translateY(20px); 
@@ -1616,6 +1496,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

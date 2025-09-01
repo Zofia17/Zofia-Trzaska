@@ -1078,6 +1078,15 @@ svg {
   }
 }
 
+@media (max-width: 768px) {
+  .fade-in4 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: right center; /* zmień wg potrzeb */
+  }
+}
+
 @keyframes ellie_illustration {
   0% {
     opacity: 0;
@@ -1410,6 +1419,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

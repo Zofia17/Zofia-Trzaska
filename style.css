@@ -1235,6 +1235,14 @@ svg {
 }
 
 @media (max-width: 768px) {
+  .menulink {
+    transform: none;
+    margin-left: 0;
+    text-align: right; /* Opcjonalnie – jeśli tekst ma być wyrównany do prawej */
+  }
+}
+
+@media (max-width: 768px) {
   .container {
     position: absolute;
     top: 5px;
@@ -1317,6 +1325,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

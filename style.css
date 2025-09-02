@@ -1081,7 +1081,7 @@ svg {
 
 @media (max-width: 768px) {
   .fade-in4 {
-    width: 100vw;
+    width: 70vw;
     height: 100vh;
     object-fit: cover;
     object-position: 65% center;
@@ -1163,13 +1163,14 @@ svg {
     overflow: visible;
   }
 
+/*
 @media (max-width: 768px) {
   .menu {
     align-items: flex-end;
     padding-right: 20px;
     padding-left: 0;
   }
-}
+}*/
 
 @media (max-width: 768px) {
   .contact-wrapper {
@@ -1325,6 +1326,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

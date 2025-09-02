@@ -1178,29 +1178,32 @@ svg {
     align-items: center;
     height: auto;
     padding: 1rem;
+    overflow: visible;
   }
 
-  .contact-image.left {
-    order: 3;
-    width: 100%;
-    max-width: 150px;
+  .contact_page2 {
+    order: 1;
+    display: block;
+    width: auto;
     height: auto;
+    max-width: 150px;
     object-fit: contain;
-    margin: 1rem 0;
+    margin-bottom: 1.5rem;
   }
-
+  
   .contact-content {
     order: 2;
   }
 
-   .contact_page2 {
-    order: 1;
-    width: 100%;
-    max-width: 150px;
+  .contact-image.left {
+    order: 3;
+    display: block;
+    width: auto;
     height: auto;
+    max-width: 150px;
     object-fit: contain;
-    margin-bottom: 1rem;
-  }
+    margin: 1rem 0;
+  }   
 }
 
 @media (max-width: 768px) {
@@ -1341,6 +1344,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

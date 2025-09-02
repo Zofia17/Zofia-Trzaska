@@ -1296,14 +1296,36 @@ svg {
 @media (max-width: 768px) {
   .illustrations {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: auto;
+    position: relative;
+  }
+
+  .il {
+    position: static;         /* usuwamy absolute */
+    width: 45%;               /* dwie kolumny */
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/*
+@media (max-width: 768px) {
+  .illustrations {
+    display: flex;
     flex-direction: column;
     align-items: center; /* wyśrodkuj obrazki poziomo */
     gap: 20px;
     padding: 20px;
     position: relative; /* ważne, żeby kontener miał position */
     height: auto; /* pozwalamy kontenerowi dopasować wysokość */
-  }
+  }*/
 
+/*
   .illustrations img {
     width: 90%;
     height: auto;
@@ -1314,7 +1336,8 @@ svg {
     opacity: 1;
     transform: none;
   }
-}
+}*/
+
 
 @media (max-width: 768px) {
    
@@ -1350,6 +1373,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

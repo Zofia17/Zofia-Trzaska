@@ -1198,6 +1198,7 @@ svg {
   
   .contact-content {
     order: 2;
+    margin-top: 3rem;
   }
 
   .contact-image.left {
@@ -1349,6 +1350,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

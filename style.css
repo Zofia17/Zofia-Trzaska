@@ -1081,7 +1081,7 @@ svg {
 
 @media (max-width: 768px) {
   .fade-in4 {
-    width: 70vw;
+    width: 100vw;
     height: 100vh;
     object-fit: cover;
     object-position: right center;
@@ -1335,6 +1335,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

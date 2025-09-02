@@ -1183,13 +1183,17 @@ svg {
   }
 
   .contact_page2 {
+   display: none;
+    margin: 0;
+    padding: 0;
+    /*
     order: 1;
     display: block;
     width: auto;
     height: auto;
     max-width: 150px;
     object-fit: contain;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;*/
   }
   
   .contact-content {
@@ -1345,6 +1349,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

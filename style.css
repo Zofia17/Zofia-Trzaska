@@ -1238,7 +1238,7 @@ svg {
 
   .contact-container {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -1350,6 +1350,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -1229,17 +1229,26 @@ svg {
 
 @media (max-width: 768px) {
   .menu {
-    padding-left: 20px;
-    width: 100%;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    align-items: center;     /* Wyśrodkowanie w poziomie */
+
+    padding: 0;  
   }
 }
 
 @media (max-width: 768px) {
   .menulink {
     transform: none;
-    margin-left: 0;
-    text-align: right; /* Opcjonalnie – jeśli tekst ma być wyrównany do prawej */
+    margin: 10px 0;          /* Dodaj trochę odstępu między przyciskami */
+    text-align: center;
   }
 }
 
@@ -1326,6 +1335,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

@@ -1016,29 +1016,6 @@ svg {
   }
 }
 
-.il29 {
-  position: absolute;
-  width: 300px;
-  top: 3880px;
-  left: 1080px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px); 
-  animation: fadeIl29 2s forwards; 
-  animation-delay: 9s; 
-}
-
-@keyframes fadeIl29 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
 .il28 {
   position: absolute;
   width: 300px;
@@ -1052,6 +1029,29 @@ svg {
 }
 
 @keyframes fadeIl28 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+} 
+
+.il29 {
+  position: absolute;
+  width: 300px;
+  top: 3880px;
+  left: 1080px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px); 
+  animation: fadeIl29 2s forwards; 
+  animation-delay: 9s; 
+}
+
+@keyframes fadeIl29 {
   0% {
     opacity: 0;
     transform: translateY(20px); 
@@ -1349,6 +1349,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

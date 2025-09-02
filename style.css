@@ -1182,8 +1182,8 @@ svg {
 
   .contact-image.left {
     order: 3;
-    width: 50%;
-    max-width: 200px;
+    width: 20%;
+    max-width: 150px;
     margin: 1rem 0 0 0;
     margin-left: 0; /* nadpisanie desktopowego marginesu */
   }
@@ -1194,8 +1194,8 @@ svg {
 
    .contact_page2 {
     order: 1;
-    width: 50%;
-    max-width: 200px;
+    width: 20%;
+    max-width: 150px;
     margin-bottom: 1rem;
   }
 }
@@ -1338,6 +1338,7 @@ svg {
   position: fixed;
   overflow: hidden;
 }
+
 
 
 

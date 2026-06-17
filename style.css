@@ -748,6 +748,20 @@ img {
   transition: opacity 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .Illustration1,
+  .Illustration2,
+  .Illustration3 {
+    top: 260px;
+  }
+
+  .Illustration4,
+  .Illustration5,
+  .Illustration6 {
+    top: 810px;
+  }
+}
+
 .Tiffany_Logo {
   display: block;
   margin: 0 auto 20px auto;
@@ -833,6 +847,20 @@ img {
   transition: opacity 0.3s ease;
   opacity: 1;
   transform: translateY(20px);
+}
+
+@media (max-width: 768px) {
+  .Tiffany1,
+  .Tiffany2,
+  .Tiffany3 {
+    top: 260px;
+  }
+
+  .Tiffany4,
+  .Tiffany5,
+  .Tiffany6 {
+    top: 810px;
+  }
 }
 
 .Live_Event_Illustrations {

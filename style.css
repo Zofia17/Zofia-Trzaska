@@ -544,14 +544,7 @@ svg {
   }
 
   .about_illustration {
-    width: 70%;
-    height: auto;
-
-    display: block;
-    margin: 40px auto;
-
-    opacity: 1;
-    transform: none;
+    display: none;
   }
 }
 
@@ -646,6 +639,20 @@ img {
   transition: opacity 0.3s ease;
   opacity: 1;
   transform: translateY(20px); 
+}
+
+@media (max-width: 768px) {
+  .Portrait1,
+  .Portrait2,
+  .Portrait3 {
+    top: 260px;
+  }
+
+  .Portrait4,
+  .Portrait5,
+  .Portrait6 {
+    top: 810px;
+  }
 }
 
 /*@media (max-width: 768px) {

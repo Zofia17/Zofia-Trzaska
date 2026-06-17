@@ -105,7 +105,7 @@ h5{
   opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .portfolio_buttons {
     position: fixed;
     top: 28%;
@@ -127,7 +127,7 @@ h5{
     font-size: 18px;
     text-align: center;
   }
-}
+}*/
 
 /*@media (max-width: 768px) {
 
@@ -195,10 +195,10 @@ h5{
     max-width: 95vw;
   }
 
-  .contact-container {
+  /*.contact-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+  }*/
 }
 
 .instagram.link {
@@ -225,13 +225,13 @@ h5{
   }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .instagram.link {
     font-size: 0.9rem;
     bottom: 0.5rem;
     left: 0.5rem;
   }
-}
+}*/
 
 .fade-in {
   opacity: 0; 
@@ -387,13 +387,13 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   h2 {
     left: 1rem;
     font-size: 1rem;
     width: 90%;
   }
-}
+}*/
 
 head {
   font-family: "ITC Caslon 224 Std", serif;
@@ -496,12 +496,12 @@ svg {
   margin-left: 250px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .h2_about {
     margin-left: 20px; 
   }
 }
-
+*/
 
 img {
   width: 1400px;
@@ -522,7 +522,7 @@ img {
   transform: translateY(20px); 
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .Portrait1 {
     width: 90%;
     top: 2rem;
@@ -532,7 +532,7 @@ img {
     animation-delay: 1s;
     opacity: 1;
   }
-}
+}*/
 
 .Portrait2 {
   position: absolute;
@@ -776,15 +776,6 @@ img {
 
 
 @media (max-width: 768px) {
-  .malina_menu {
-    top: 20px;
-    left: 10px;
-    width: 90%;   /* mniejsza szerokość, dopasowana do ekranu */
-  }
-
-  .restaurant_menu,
-  .illustration10,
-  .illustration11,
   .illustration4 {
     top: auto;      /* usuń sztywne top */
     left: 50%;
@@ -794,17 +785,6 @@ img {
     width: 90%;     /* szerokość dopasowana do ekranu */
   }
 
-  .il10,
-  .il11,
-  .il4 {
-    position: relative; /* zmiana na relative dla responsywności */
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-  }
 }
 
 
@@ -875,22 +855,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .versace, .green_dior {
-    width: 100%;
-    position: relative; /* Zamiast absolute dla lepszego układu */
-    transform: none;
-    animation: none; /* Możesz wyłączyć animacje na mniejszych ekranach */
-    opacity: 1;
-  }
   
-  .v1, .v2, .v3, .d2, .d3, .d4, .s1, .s2, .s3, .restaurant {
-    width: 100%;
-    position: relative;
-    top: auto;
-    transform: none;
-    opacity: 1;
-    animation: none;
-  }
   
   .header, .description, .content {
     position: relative;
@@ -994,7 +959,7 @@ img {
 
 /* Ekrany do 768px (tablety i mniejsze) */
 @media (max-width: 768px) {
-  .about_illustration {
+  /*.about_illustration {
     width: 50%;           
     margin-right: 0;     
     position: relative;   
@@ -1013,22 +978,22 @@ img {
     transform: none;
     animation: none;
     z-index: 1;
-  }
+  }*/
 
   .homepage-body {
     position: relative;   /* zamiast fixed, by uniknąć problemów z przewijaniem */
     overflow: visible;
   }
   
-  .h2_about {
+  /*.h2_about {
     left: 0;
     text-align: center;
     position: relative;
-  }
+  }*/
 }
 
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .about_illustration {
     width: 80%;
     margin-right: 0;

@@ -13,7 +13,7 @@ body {
 
 @font-face {
   font-family: "ITC Caslon 224 Std";
-  src: url("fonts/ITC Caslon 224 Std Book.ttf") format("opentype");
+  src: url("fonts/ITC\ Caslon\ 224\ Std\ Book.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -105,7 +105,7 @@ h5{
   opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 
   .portfolio_buttons {
     position: relative;
@@ -120,7 +120,7 @@ h5{
   .portfolio_buttons a {
     font-size: 1rem;
   }
-}
+}*/
 
 .email-box {
   position: absolute;
@@ -315,9 +315,30 @@ h5{
 
 @media (max-width: 768px) {
   .menu {
-    padding-left: 20px;
-    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .menu a {
+    display: block;
+    text-align: center;
+    margin: 0.4rem 0;
   }
 }
 
@@ -544,19 +565,21 @@ img {
   transform: translateY(20px); 
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .Portrait1 {
     top: 30px;
     left: 20px;
     width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
-  }
-  .Portrait5 {
+  
+  /*.Portrait5 {
     top: 30px;
     left: 20px;
     width: 150px; /* lub inna wartość, jeśli obrazek nie ma ustawionej szerokości */
-  }
-}
-@media (max-width: 768px) {
+  
+
+
+
+/*@media (max-width: 768px) {
   .Portrait4 {
     top: 200px;
     left: 50%;
@@ -564,7 +587,7 @@ img {
     width: 80%;
     max-width: 300px;
   }
-}
+}*/
 
 .Illustration1 {
   width: 370px;
@@ -728,29 +751,6 @@ img {
 
 
 
-@keyframes il11 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
-
-@keyframes il4 {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); 
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); 
-  }
-}
-
 @media (max-width: 768px) {
   .malina_menu {
     top: 20px;
@@ -794,71 +794,6 @@ img {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
-  /* Kontenery ilustracji */
-  .illustration12,
-  .illustration13,
-  .illustration14,
-  .illustration15,
-  .illustration16,
-  .illustration17,
-  .illustration18,
-  .illustration19,
-  .illustration20,
-  .illustration21,
-  .illustration22,
-  .illustration23,
-  .illustration24,
-  .illustration25,
-  .illustration26,
-  .illustration28,
-  .illustration29,
-  .time_book,
-  .zine_book,
-  .restaurant_menu {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    margin: 20px auto !important;
-    width: 90% !important;
-    max-width: 350px;
-    transform: none !important;
-  }
-
-  /* Same ilustracje */
-  .il12,
-  .il13,
-  .il14,
-  .il15,
-  .il16,
-  .il17,
-  .il18,
-  .il19,
-  .il20,
-  .il21,
-  .il22,
-  .il23,
-  .il24,
-  .il25,
-  .il26,
-  .il28,
-  .il29,
-  .sculpture,
-  .zine,
-  .il9,
-  .il10,
-  .il11,
-  .il4 {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    width: 100% !important;
-    max-width: 300px !important;
-    opacity: 1 !important;
-    transform: none !important;
-    margin: 10px auto !important;
-  }
-}
 
 
 
@@ -943,18 +878,12 @@ img {
     animation: none;
   }
   
-  /* Dodatkowe dostosowania paddingów, marginesów, itp. */
-  .purple_page, .dior_page, .saab_page, .malina_page, .timebook_page {
-    padding: 10px;
-    font-size: 16px;
-  }
+
 }
 
 /* Dla bardzo małych ekranów (np. smartfony) */
 @media (max-width: 480px) {
-  .versace, .green_dior, .v1, .v2, .v3, .d2, .d3, .d4, .s1, .s2, .s3, .restaurant {
-    width: 100%;
-  }
+  
 
   .header {
     font-size: 16px;

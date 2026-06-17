@@ -107,20 +107,20 @@ h5{
 
 @media (max-width: 768px) {
   .portfolio_buttons {
-    position: relative;
-    top: auto;
-    left: auto;
+    position: fixed;
+    top: 28%;
+    left: 0;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
     gap: 12px;
-    margin: 30px auto 40px auto;
-    width: 100%;
 
-    z-index: 1000;
+    z-index: 9999;
   }
 
   .portfolio_buttons a {
@@ -496,12 +496,12 @@ svg {
   margin-left: 250px;
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .h2_about {
     margin-left: 20px; 
   }
 }
-*/
+
 
 img {
   width: 1400px;
@@ -994,7 +994,7 @@ img {
 
 /* Ekrany do 768px (tablety i mniejsze) */
 @media (max-width: 768px) {
-  /*.about_illustration {
+  .about_illustration {
     width: 50%;           
     margin-right: 0;     
     position: relative;   
@@ -1002,7 +1002,7 @@ img {
     transform: none;
     animation: none;
     z-index: 1;
-  }*/
+  }
   
   .contact_page1 {
     width: 40%;
@@ -1027,12 +1027,12 @@ img {
   }
 }
 
-/* Ekrany do 480px (smartfony) */
+
 @media (max-width: 480px) {
-  /*.about_illustration {
+  .about_illustration {
     width: 80%;
     margin-right: 0;
-  }*/
+  }
 
   .contact_page1 {
     width: 80%;
